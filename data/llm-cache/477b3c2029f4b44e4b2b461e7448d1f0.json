@@ -1,0 +1,6 @@
+{
+  "text": "Allotted 50,000 listed, rated, unsecured, redeemable, tokenised non‑convertible debentures at its September 09, 2026 meeting.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

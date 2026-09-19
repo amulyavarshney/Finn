@@ -1,0 +1,6 @@
+{
+  "text": "HDFC Bank received RBI approval to appoint Mr. Rajiv Kumar as Part‑time Chairman.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

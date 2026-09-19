@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"resignation\",\"people\":[{\"name\":\"Mr. Ravi Kethana\",\"role\":\"Chief Platform Officer\",\"direction\":\"outgoing\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

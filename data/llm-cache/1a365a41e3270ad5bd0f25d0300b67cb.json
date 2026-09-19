@@ -1,0 +1,6 @@
+{
+  "text": "Board approved unaudited Q1 FY 2026-27 standalone and consolidated financial results.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

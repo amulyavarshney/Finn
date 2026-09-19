@@ -1,0 +1,6 @@
+{
+  "text": "Reliance Enterprise Intelligence Limited ceases to be a step-down wholly owned subsidiary and becomes a step-down subsidiary of Company.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

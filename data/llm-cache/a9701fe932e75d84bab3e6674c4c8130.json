@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"CaratLane ... will gradually go towards double-digit EBIT margin, more like Tanishq kind of margin ... should be towards 10%\",\"metric\":\"EBIT margin ~10% for CaratLane\",\"promised\":\"CaratLane EBIT margin will reach around 10%\",\"horizon\":null}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

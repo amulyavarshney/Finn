@@ -1,0 +1,6 @@
+{
+  "text": "{\"category\":\"postal_ballot\"}",
+  "task": "categorize",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

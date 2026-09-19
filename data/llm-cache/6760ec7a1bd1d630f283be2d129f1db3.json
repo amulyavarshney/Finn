@@ -1,0 +1,6 @@
+{
+  "text": "Reliance Retail acquires Priyanka Chopra Jonas's Anomaly, expanding its beauty portfolio.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

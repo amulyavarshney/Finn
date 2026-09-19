@@ -1,0 +1,6 @@
+{
+  "text": "Revenue growth guidance – 1.5% to 3% Y‑on‑Y in constant currency terms (full year)  \nOperating margin guidance – 20% to 22% operating margin (full year)  \nAI services revenue – 8.2% of overall revenue in Q1, growing at double‑digit Q‑on‑Q pace (full year)",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we are changing our revenue growth guidance to 1.5% to 3% Y-on-Y growth in constant currency terms\",\"metric\":\"Revenue growth\",\"promised\":\"1.5% to 3% year‑on‑year revenue growth in constant currency\",\"horizon\":\"rest of the financial year\"},{\"quote\":\"Our operating margin guidance remains the same at 20% to 22% operating margin\",\"metric\":\"Operating margin\",\"promised\":\"20% to 22% operating margin\",\"horizon\":\"rest of the financial year\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "Reliance Consumer Products Limited acquires majority stake in Australia S Goodness Group, founder of Nexba.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

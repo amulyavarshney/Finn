@@ -1,0 +1,6 @@
+{
+  "text": "REC US Holdings, Inc. voluntarily dissolved on July 6, 2026, ceasing to be a subsidiary; its net worth was Rs 0.0009 crore in 2025.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

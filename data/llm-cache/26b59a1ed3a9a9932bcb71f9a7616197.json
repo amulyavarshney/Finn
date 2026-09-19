@@ -1,0 +1,6 @@
+{
+  "text": "Eternal Limited filed monitoring agency report for quarter ended June 30, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "Submitted financial results for period ended Jun 30, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

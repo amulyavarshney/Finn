@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"Our revenue growth guidance for the financial year 2027 is 1.5% to 3.5% growth year‑on‑year in constant currency terms.\",\"metric\":\"revenue growth\",\"promised\":\"1.5%‑3.5% YoY revenue growth in FY27 (constant currency)\",\"horizon\":\"FY27\"},{\"quote\":\"Our operating margin guidance for financial year '27 is 20% to 22%.\",\"metric\":\"margin\",\"promised\":\"Operating margin of 20%‑22% in FY27\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

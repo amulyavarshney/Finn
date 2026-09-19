@@ -1,0 +1,6 @@
+{
+  "text": "Jubilant FoodWorks Limited issued a Letter to Shareholders on Financial Results for Q1 FY27.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

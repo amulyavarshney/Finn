@@ -1,0 +1,6 @@
+{
+  "text": "ITC Limited announced strategic combination of ITC Infotech India Limited and Happiest Minds Technologies Limited.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

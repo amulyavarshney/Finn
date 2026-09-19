@@ -1,0 +1,6 @@
+{
+  "text": "Board approved audited standalone and unaudited consolidated financial results for quarter ended 30 June 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

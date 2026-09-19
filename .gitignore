@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+
+# Build output
+.next
+out
+build
+next-env.d.ts
+*.tsbuildinfo
+.turbo
+
+# Secrets. `.env.example` is deliberately tracked as documentation, so the
+# patterns here stay specific rather than a blanket `.env*`.
+.env
+.env.local
+.env*.local
+*.pem
+
+# Deploy
+.vercel
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea
+
+# Logs
+*.log
+npm-debug.log*
+
+# Raw fetched documents are large and reproducible via `npm run ingest`.
+data/raw/
+
+# Screenshots from local UI verification.
+.shots/
+
+# Note on what is NOT ignored: data/snapshot/, data/llm-cache/ and
+# data/llm-ledger.json are all committed on purpose. The deployed app reads
+# them at runtime through process.cwd(), so leaving them out means the Brief
+# reports no ingested data, research sheets regenerate cold, and Tune shows no
+# model usage. See outputFileTracingIncludes in next.config.ts.

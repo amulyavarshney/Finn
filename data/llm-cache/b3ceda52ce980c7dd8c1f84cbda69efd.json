@@ -1,0 +1,6 @@
+{
+  "text": "Infosys sells technology consulting and digital‑transformation services, with a core delivery business that supports clients across software development, infrastructure, and business process outsourcing. The company is expanding its AI services, which now account for about 8 % of total revenue, and it relies on large‑deal wins—$3.6 bn in Q1—to drive growth. Revenue growth is modest, at around 2–3 % year‑on‑year in constant currency, and operating margin guidance remains near 20–22 %. The business mix is therefore dominated by traditional delivery work, with a growing but still small AI‑related segment.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

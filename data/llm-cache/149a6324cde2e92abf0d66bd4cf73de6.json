@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Titan's annual sales grew from ₹51,084 cr in FY2024 to ₹60,456 cr in FY2025 and further to ₹87,584 cr in FY2026, indicating robust top‑line expansion.\",\"Operating profit rose from ₹5,292 cr in FY2024 to ₹5,694 cr in FY2025 and accelerated to ₹8,357 cr in FY2026, showing accelerating earnings growth.\",\"The company’s ROE of 37.7% and ROCE of 20.5% underscore strong capital efficiency and profitability relative to its peers.\",\"Customs duty changes generated a one‑time ₹407 cr gain in Q1 FY27, boosting the jewellery division’s EBIT margin to a normalized 10.9%.\"],\"bear\":[\"Operating profit margin fell to 7% in the March 2026 quarter, down from double‑digit levels in prior quarters, indicating margin pressure.\",\"Net profit declined to ₹3,337 cr in FY2025 from ₹3,496 cr in FY2024, reflecting a dip despite higher sales.\",\"The stock trades at a high forward P/E of 73.0, suggesting the market may be pricing in optimistic growth that could be hard to sustain.\",\"International operations reported an ₹82 cr loss in Q4 FY26 and unallocated losses surged to roughly ₹120 cr in Q4, highlighting earnings volatility from overseas exposure.\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

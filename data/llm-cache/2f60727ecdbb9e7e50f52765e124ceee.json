@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we would certainly like to expand to around 10 to 12 stores in two to three cities\",\"metric\":\"store expansion\",\"promised\":\"add 10‑12 new stores in 2‑3 cities\",\"horizon\":\"this year\"},{\"quote\":\"we believe 15% to 20%, three to five-year kind of horizon is certainly to be delivered on a CAGR basis\",\"metric\":\"revenue growth CAGR\",\"promised\":\"15%‑20% compound annual growth rate\",\"horizon\":\"next 3‑5 years\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

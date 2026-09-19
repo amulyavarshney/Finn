@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we will continue to deliver ... around an 8% to 10% growth\",\"metric\":\"revenue growth\",\"promised\":\"8% to 10% revenue growth\",\"horizon\":\"future periods (unspecified)\"},{\"quote\":\"CaratLane with the scale will start inching towards double-digit EBIT margin ... they would stay there, low double-digit margin EBIT profile\",\"metric\":\"EBIT margin\",\"promised\":\"low double-digit EBIT margin\",\"horizon\":\"going forward\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

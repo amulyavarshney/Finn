@@ -1,0 +1,6 @@
+{
+  "text": "Allotted 12,00,000 unsecured redeemable non-convertible debentures of Rs.1,00,000 each.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

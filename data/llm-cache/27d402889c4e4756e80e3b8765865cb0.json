@@ -1,0 +1,6 @@
+{
+  "text": "HDFC Bank Limited submitted financial results for period ended December 31, 2025.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

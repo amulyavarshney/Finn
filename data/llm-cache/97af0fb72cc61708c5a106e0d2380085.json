@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Operating profit margin remained steady at roughly 24% each quarter, matching the company’s guidance of 20%‑22% for FY27\",\"AI services contributed 8.2% of total revenue in Q1 and are growing at double‑digit quarter‑on‑quarter rates, indicating a strong new growth engine\",\"Large deals totaling $3.6 bn in Q1, with 61% net new business, provide a solid pipeline to sustain revenue expansion\",\"The firm hired over 20,000 freshers in FY26 and plans to hire a similar number in FY27, supporting talent depth for future projects\"],\"bear\":[\"Revenue growth guidance has been trimmed to 1.5%‑3% YoY for FY27, down from the 3.1% constant‑currency growth achieved in FY26\",\"Net profit fell in the December 2025 quarter to ₹6,666 cr from ₹7,038 cr in March 2025, showing earnings volatility\",\"Management cited a one‑time revenue impact from a client decision and broader macro‑economic uncertainty as reasons for the lowered guidance\",\"Quarterly margins were hit by a 50‑basis‑point hit from acquisition‑related amortisation and a 70‑basis‑point drag from a lower on‑site mix, eroding profitability\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

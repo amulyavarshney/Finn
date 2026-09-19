@@ -1,0 +1,6 @@
+{
+  "text": "Titan Company sells jewellery, watches, eyewear and online jewellery through its CaratLane subsidiary. The jewellery arm—comprising Tanishq, Mia, Zoya and other brands—drives the bulk of sales, followed by the watches division, then eyewear and CaratLane. Revenue is concentrated in jewellery, with watches and eyewear contributing smaller, but growing, shares of the total. The company’s operating profit and margin are largely supported by the jewellery business, while watches and eyewear provide complementary, lower‑margin streams.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

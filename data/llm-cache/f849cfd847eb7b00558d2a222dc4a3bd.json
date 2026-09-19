@@ -1,0 +1,6 @@
+{
+  "text": "KEI Industries Limited responded to SEBI Regulation 33 clarification request for quarter ended 30-Jun-2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

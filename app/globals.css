@@ -1,0 +1,336 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   Token set. OKLCH throughout so the same lightness/chroma numbers read
+   consistently across both schemes and category hues tint evenly.
+   --------------------------------------------------------------------------- */
+
+:root {
+  /* Canvas and surfaces. Surfaces are translucent so the aurora field shows
+     through; opacity is what separates the tiers, not hue. */
+  --canvas: oklch(0.98 0.005 250);
+  --canvas-deep: oklch(0.955 0.008 250);
+  --surface: oklch(1 0 0 / 0.66);
+  --surface-raised: oklch(1 0 0 / 0.82);
+  --surface-sunken: oklch(0.96 0.006 250 / 0.5);
+  /* Fixed chrome needs to occlude what scrolls beneath it, so it is a tinted
+     fill in its own right rather than the same translucent white as a card. */
+  --chrome-fill: oklch(0.99 0.004 250 / 0.82);
+  --hairline: oklch(0.55 0.02 260 / 0.14);
+  --hairline-strong: oklch(0.45 0.02 260 / 0.22);
+
+  /* The specular edge that makes a surface read as glass: bright along the top,
+     shadowed along the bottom. */
+  --glass-highlight: oklch(1 0 0 / 0.75);
+  --glass-lowlight: oklch(0.4 0.02 260 / 0.08);
+  --glass-shadow: 0 1px 2px oklch(0.3 0.02 260 / 0.04), 0 8px 24px -8px oklch(0.3 0.03 260 / 0.12);
+
+  --text-primary: oklch(0.24 0.015 260);
+  --text-secondary: oklch(0.48 0.012 260);
+  --text-tertiary: oklch(0.63 0.01 260);
+
+  /* Indian market convention: green is up, red is down. Never the sole carrier
+     of meaning -- every delta also renders an arrow and an explicit sign. */
+  --up: oklch(0.58 0.15 152);
+  --up-soft: oklch(0.58 0.15 152 / 0.12);
+  --down: oklch(0.56 0.19 25);
+  --down-soft: oklch(0.56 0.19 25 / 0.12);
+  --flat: oklch(0.6 0.01 260);
+
+  /* Materiality tiers. */
+  --tier-critical: oklch(0.6 0.19 32);
+  --tier-high: oklch(0.63 0.16 62);
+  --tier-medium: oklch(0.58 0.09 250);
+  --tier-routine: oklch(0.63 0.01 260);
+
+  --accent: oklch(0.55 0.17 268);
+  --accent-soft: oklch(0.55 0.17 268 / 0.12);
+
+  --radius-card: 18px;
+  --radius-tile: 12px;
+
+  /* Anchor scrolling has to clear the research sheet's sticky header and
+     section nav. StickyChrome overwrites this with the measured height once
+     mounted; this is the pre-hydration fallback. */
+  --scroll-offset: calc(106px + env(safe-area-inset-top));
+
+  color-scheme: light;
+}
+
+.dark {
+  /* Deliberately not pure black: backdrop-filter needs luminance behind it to
+     refract, and #000 flattens the glass into plain grey rectangles. */
+  --canvas: oklch(0.18 0.022 265);
+  --canvas-deep: oklch(0.145 0.02 265);
+  --surface: oklch(1 0 0 / 0.062);
+  --surface-raised: oklch(1 0 0 / 0.1);
+  --surface-sunken: oklch(0 0 0 / 0.16);
+  /* Translucent white over a dark canvas produces haze, not occlusion, so the
+     dark scheme's chrome is a translucent dark instead. */
+  --chrome-fill: oklch(0.2 0.022 265 / 0.8);
+  --hairline: oklch(1 0 0 / 0.1);
+  --hairline-strong: oklch(1 0 0 / 0.18);
+
+  --glass-highlight: oklch(1 0 0 / 0.2);
+  --glass-lowlight: oklch(0 0 0 / 0.25);
+  --glass-shadow: 0 1px 2px oklch(0 0 0 / 0.3), 0 10px 30px -10px oklch(0 0 0 / 0.5);
+
+  --text-primary: oklch(0.97 0.004 260);
+  --text-secondary: oklch(0.73 0.012 260);
+  --text-tertiary: oklch(0.57 0.012 260);
+
+  --up: oklch(0.76 0.16 152);
+  --up-soft: oklch(0.76 0.16 152 / 0.16);
+  --down: oklch(0.68 0.19 25);
+  --down-soft: oklch(0.68 0.19 25 / 0.16);
+  --flat: oklch(0.6 0.01 260);
+
+  --tier-critical: oklch(0.72 0.17 32);
+  --tier-high: oklch(0.78 0.15 68);
+  --tier-medium: oklch(0.7 0.1 250);
+  --tier-routine: oklch(0.57 0.012 260);
+
+  --accent: oklch(0.72 0.15 268);
+  --accent-soft: oklch(0.72 0.15 268 / 0.18);
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-canvas-deep: var(--canvas-deep);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-hairline: var(--hairline);
+  --color-hairline-strong: var(--hairline-strong);
+
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-tertiary: var(--text-tertiary);
+
+  --color-up: var(--up);
+  --color-up-soft: var(--up-soft);
+  --color-down: var(--down);
+  --color-down-soft: var(--down-soft);
+  --color-flat: var(--flat);
+
+  --color-critical: var(--tier-critical);
+  --color-high: var(--tier-high);
+  --color-medium: var(--tier-medium);
+  --color-routine: var(--tier-routine);
+
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: var(--radius-card);
+  --radius-tile: var(--radius-tile);
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+   --------------------------------------------------------------------------- */
+
+* {
+  border-color: var(--hairline);
+}
+
+html {
+  background: var(--canvas-deep);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: transparent;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  /* Cut the 300ms tap delay and stop the horizontal rubber-band on iOS. */
+  touch-action: manipulation;
+  overscroll-behavior-x: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Financial figures must align in columns, and count-up animations jitter badly
+   without fixed-advance digits. */
+.tnum {
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+.tracking-display {
+  letter-spacing: -0.02em;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+   Glass. Two tiers, and the split is a performance decision:
+
+   .glass-chrome  -- real backdrop-filter. Expensive. Reserved for the handful
+                     of FIXED elements (header, tab bar, ask bar, sheets). A
+                     blur layer costs a full-viewport readback per frame, so the
+                     budget is four simultaneous layers.
+   .glass-card    -- no blur at all. Translucent fill + gradient hairline +
+                     inset specular highlight. Reads as the same material but
+                     composites cheaply, which is what keeps a long scrolling
+                     feed at 60fps on a phone.
+   --------------------------------------------------------------------------- */
+
+/* The blur radius is written literally rather than through a custom property:
+   Lightning CSS cannot validate blur(var(--x)) while prefixing and drops the
+   whole declaration, which silently removes the blur from every chrome layer. */
+.glass-chrome {
+  background: var(--chrome-fill);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+  border-color: var(--hairline);
+}
+
+.glass-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid transparent;
+  border-radius: var(--radius-card);
+  box-shadow: var(--glass-shadow), inset 0 1px 0 0 var(--glass-highlight);
+  /* Gradient hairline: light at the top edge, dark at the bottom, so the card
+     looks lit from above like a physical pane. */
+  background-image: linear-gradient(var(--surface), var(--surface)),
+    linear-gradient(to bottom, var(--glass-highlight), var(--glass-lowlight));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.glass-tile {
+  position: relative;
+  border-radius: var(--radius-tile);
+  box-shadow: inset 0 1px 0 0 oklch(1 0 0 / 0.45), 0 1px 3px oklch(0.3 0.02 260 / 0.1);
+  border: 1px solid oklch(1 0 0 / 0.18);
+}
+
+.dark .glass-tile {
+  box-shadow: inset 0 1px 0 0 oklch(1 0 0 / 0.22), 0 1px 3px oklch(0 0 0 / 0.35);
+  border-color: oklch(1 0 0 / 0.1);
+}
+
+/* Where backdrop-filter is unsupported the chrome would otherwise be a
+   see-through smear over scrolling content. Go opaque instead. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass-chrome {
+    background: var(--canvas);
+  }
+}
+
+/* The slow specular sweep that marks a critical-tier card. */
+@keyframes sheen {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(220%);
+  }
+}
+
+.sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 38%, oklch(1 0 0 / 0.16) 50%, transparent 62%);
+  animation: sheen 5.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface-sunken);
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, var(--surface-raised), transparent);
+  animation: shimmer 1.6s infinite;
+}
+
+/* ---------------------------------------------------------------------------
+   Aurora field. Glass only looks like glass when there is something behind it
+   to refract, so a drifting gradient field sits under the whole app.
+   --------------------------------------------------------------------------- */
+
+@keyframes drift-a {
+  0%,
+  100% {
+    transform: translate(-6%, -4%) scale(1);
+  }
+  50% {
+    transform: translate(8%, 6%) scale(1.14);
+  }
+}
+
+@keyframes drift-b {
+  0%,
+  100% {
+    transform: translate(6%, 8%) scale(1.08);
+  }
+  50% {
+    transform: translate(-8%, -6%) scale(0.94);
+  }
+}
+
+.aurora-a {
+  animation: drift-a 26s ease-in-out infinite;
+}
+.aurora-b {
+  animation: drift-b 34s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .aurora-a,
+  .aurora-b,
+  .sheen::after {
+    animation: none !important;
+  }
+}

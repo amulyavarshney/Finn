@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"resignation\",\"people\":[{\"name\":\"Mr Kaushik Narayan Badri\",\"role\":\"Chief Executive Officer\",\"direction\":\"outgoing\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

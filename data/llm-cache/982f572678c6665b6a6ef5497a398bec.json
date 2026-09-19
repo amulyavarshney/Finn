@@ -1,0 +1,6 @@
+{
+  "text": "Dixon Technologies (India) Limited reported a change in director(s).",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

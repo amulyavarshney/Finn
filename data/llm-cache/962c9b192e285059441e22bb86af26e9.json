@@ -1,0 +1,6 @@
+{
+  "text": "Monitoring Agency Report for the quarter ended June 30, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

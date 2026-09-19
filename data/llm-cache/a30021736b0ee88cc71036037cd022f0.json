@@ -1,0 +1,6 @@
+{
+  "text": "Resignation of Mr Rahul Shyam Shukla effective October 01, 2025.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

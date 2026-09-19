@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"they will gradually revert towards 16%, 17% band\",\"metric\":\"watch margin\",\"promised\":\"watch margin to revert to a 16‑17% range\",\"horizon\":\"short‑term (next quarter)\"},{\"quote\":\"mid‑teen is a good number to aim for, 15% to 16% for the business, at least in the 1‑year, 2‑year time frame\",\"metric\":\"overall margin\",\"promised\":\"aim for 15‑16% margin over the next 1‑2 years\",\"horizon\":\"1‑2 years\"},{\"quote\":\"we should be closing this year at a slightly higher number than what you are seeing, anywhere between 13% to 14%\",\"metric\":\"eyewear sales growth\",\"promised\":\"eyewear growth of 13‑14% for the current year\",\"horizon\":\"this year\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

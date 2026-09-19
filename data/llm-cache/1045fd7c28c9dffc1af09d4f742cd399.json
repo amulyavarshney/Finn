@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we are targeting, as always, a double-digit aggressive growth\",\"metric\":\"revenue growth\",\"promised\":\"double-digit growth in revenue\",\"horizon\":\"FY30\"},{\"quote\":\"more of 11% being the center of gravity for jewellery business margin, we would be around that plus/minus something\",\"metric\":\"margin\",\"promised\":\"jewellery margin around 11%\",\"horizon\":\"future periods\"},{\"quote\":\"CaratLane ... will gradually go towards double-digit EBIT margin, more like Tanishq kind of margin ... should be towards 10%\",\"metric\":\"margin\",\"promised\":\"CaratLane EBIT margin around 10%\",\"horizon\":\"long term\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

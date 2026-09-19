@@ -1,0 +1,6 @@
+{
+  "text": "Larsen & Toubro Limited has informed the Exchange about Credit Rating.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

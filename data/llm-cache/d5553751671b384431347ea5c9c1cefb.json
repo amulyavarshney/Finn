@@ -1,0 +1,6 @@
+{
+  "text": "HDFC Bank Limited informs the Exchange of its retirement.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

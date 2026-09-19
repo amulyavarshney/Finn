@@ -1,0 +1,6 @@
+{
+  "text": "HDFC Bank Limited informs Exchange of Mr. Bhavesh Zaveri's retirement.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

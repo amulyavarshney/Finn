@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"appointment\",\"people\":[{\"name\":\"Mr. Rajiv Kumar\",\"role\":\"Part-time Chairman\",\"direction\":\"incoming\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

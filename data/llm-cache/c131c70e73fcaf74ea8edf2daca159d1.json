@@ -1,0 +1,6 @@
+{
+  "text": "Ms Shveta Arya resigned as Managing Director of Cummins India Limited effective August 31, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

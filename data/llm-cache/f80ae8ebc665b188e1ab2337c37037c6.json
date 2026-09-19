@@ -1,0 +1,6 @@
+{
+  "text": "Avenue Supermarts Limited informed the Exchange about action(s) taken or orders passed.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

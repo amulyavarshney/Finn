@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"appointment\",\"people\":[{\"name\":\"Ashiss Kumar Dash\",\"role\":\"Chief Executive Officer Designate\",\"direction\":\"incoming\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

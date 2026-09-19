@@ -1,0 +1,6 @@
+{
+  "text": "Ravi Kethana resigned as Chief Platform Officer, effective December 10, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

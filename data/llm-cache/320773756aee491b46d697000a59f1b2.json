@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We expect high-double-digit growth quarter-on-quarter in the smartphones volume\",\"metric\":\"volume growth\",\"promised\":\"high double‑digit QoQ volume growth\",\"horizon\":\"next quarter\"},{\"quote\":\"growth in selling prices by 12% to 15%\",\"metric\":\"other\",\"promised\":\"selling‑price increase of 12‑15%\",\"horizon\":\"next quarter\"},{\"quote\":\"We expect this vertical to deliver high double-digit revenue growth in the current fiscal\",\"metric\":\"revenue growth\",\"promised\":\"high double‑digit revenue growth\",\"horizon\":\"current fiscal\"},{\"quote\":\"we expect 3x growth in the revenues in the current fiscal against last year\",\"metric\":\"revenue growth\",\"promised\":\"3‑times revenue growth versus last year\",\"horizon\":\"current fiscal\"},{\"quote\":\"we expect the revenues to grow almost to 2x in the current fiscal\",\"metric\":\"revenue growth\",\"promised\":\"almost 2‑times revenue growth\",\"horizon\":\"current fiscal\"},{\"quote\":\"We are targeting a revenue of almost INR2,500 crores in that business\",\"metric\":\"revenue growth\",\"promised\":\"revenue of ~INR2,500 crores\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-09-19T12:12:57.343Z",
+  "portfolio": [
+    "RELIANCE",
+    "HDFCBANK",
+    "TCS",
+    "INFY",
+    "ITC",
+    "TITAN",
+    "LT",
+    "SUNPHARMA",
+    "MARUTI",
+    "BEL",
+    "POLYCAB",
+    "CUMMINSIND",
+    "LAURUSLABS",
+    "DIXON",
+    "PERSISTENT",
+    "KEI",
+    "CAMS",
+    "ETERNAL"
+  ],
+  "adhoc": [
+    "ASIANPAINT",
+    "DMART",
+    "IRCTC",
+    "JUBLFOOD"
+  ],
+  "companies": {
+    "ETERNAL": {
+      "company": "Eternal Ltd",
+      "industry": null
+    },
+    "RELIANCE": {
+      "company": "Reliance Industries Ltd",
+      "industry": "Refineries"
+    },
+    "HDFCBANK": {
+      "company": "HDFC Bank Ltd",
+      "industry": "Banks"
+    },
+    "TCS": {
+      "company": "Tata Consultancy Services Ltd",
+      "industry": "Computers - Software"
+    },
+    "INFY": {
+      "company": "Infosys Ltd",
+      "industry": "Computers - Software"
+    },
+    "ITC": {
+      "company": "ITC Ltd",
+      "industry": "Cigarettes"
+    },
+    "TITAN": {
+      "company": "Titan Company Ltd",
+      "industry": "Gems Jewellery And Watches"
+    },
+    "LT": {
+      "company": "Larsen & Toubro Ltd",
+      "industry": "Engineering"
+    },
+    "SUNPHARMA": {
+      "company": "Sun Pharmaceutical Industries Ltd",
+      "industry": "Pharmaceuticals"
+    },
+    "MARUTI": {
+      "company": "Maruti Suzuki India Ltd",
+      "industry": "Automobiles - 4 Wheelers"
+    },
+    "BEL": {
+      "company": "Bharat Electronics Ltd",
+      "industry": "Electronics - Industrial"
+    },
+    "POLYCAB": {
+      "company": "Polycab India Ltd",
+      "industry": null
+    },
+    "CUMMINSIND": {
+      "company": "Cummins India Ltd",
+      "industry": "Diesel Engines"
+    },
+    "LAURUSLABS": {
+      "company": "Laurus Labs Ltd",
+      "industry": null
+    },
+    "DIXON": {
+      "company": "Dixon Technologies (India) Ltd",
+      "industry": null
+    },
+    "PERSISTENT": {
+      "company": "Persistent Systems Ltd",
+      "industry": "Computers - Software"
+    },
+    "KEI": {
+      "company": "KEI Industries Ltd",
+      "industry": "Miscellaneous"
+    },
+    "CAMS": {
+      "company": "Computer Age Management Services Ltd",
+      "industry": null
+    },
+    "ASIANPAINT": {
+      "company": "Asian Paints Ltd",
+      "industry": "Paints"
+    },
+    "DMART": {
+      "company": "Avenue Supermarts Ltd",
+      "industry": null
+    },
+    "IRCTC": {
+      "company": "Indian Railway Catering & Tourism Corporation Ltd",
+      "industry": null
+    },
+    "JUBLFOOD": {
+      "company": "Jubilant Foodworks Ltd",
+      "industry": "Food And Food Processing"
+    }
+  }
+}

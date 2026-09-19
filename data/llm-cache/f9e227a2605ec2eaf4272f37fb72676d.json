@@ -1,0 +1,6 @@
+{
+  "text": "{\"category\":\"press_release\"}",
+  "task": "categorize",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

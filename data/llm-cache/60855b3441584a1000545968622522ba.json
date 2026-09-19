@@ -1,0 +1,6 @@
+{
+  "text": "Laurus Labs Limited submitted financial results for period ended June 30, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

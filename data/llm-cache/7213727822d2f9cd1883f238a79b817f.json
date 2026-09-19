@@ -1,0 +1,6 @@
+{
+  "text": "Mr Atanu Chakraborty resigned as Chairman effective March 18, 2026.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

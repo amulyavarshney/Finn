@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"resignation\",\"people\":[]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

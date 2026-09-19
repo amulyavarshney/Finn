@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"appointment\",\"people\":[{\"name\":\"Mr Puneet Sharma\",\"role\":\"Chief Financial Officer (Designate)\",\"direction\":\"incoming\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

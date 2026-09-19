@@ -1,0 +1,6 @@
+{
+  "text": "ITC Limited announced amalgamation of Blazeclan Technologies Private Limited and Cloudlytics Technologies Private Limited with ITC Infotech India Limited.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

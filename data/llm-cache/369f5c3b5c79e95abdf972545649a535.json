@@ -1,0 +1,6 @@
+{
+  "text": "{\"category\":\"investor_meetings\"}",
+  "task": "categorize",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

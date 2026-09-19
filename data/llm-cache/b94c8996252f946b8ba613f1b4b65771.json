@@ -1,0 +1,6 @@
+{
+  "text": "Dixon Technologies sells a broad range of electronic components and finished products, primarily through its mobile and EMS, telecom and networking, IT‑hardware, home‑appliance, lighting, and consumer‑electronics segments. The mobile and EMS business dominates the revenue mix, accounting for roughly 90 % of the quarterly sales, while telecom and networking, IT‑hardware, and home‑appliance segments contribute the remaining 10 %. The company’s strategy focuses on backward integration and joint ventures to enhance value addition across these verticals.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

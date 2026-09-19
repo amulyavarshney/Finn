@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"appointment\",\"people\":[{\"name\":\"Ms. Shubhlakshmi Dani\",\"role\":\"Additional and Non-Executive Director\",\"direction\":\"incoming\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

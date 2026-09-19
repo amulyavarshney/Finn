@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"resignation\",\"people\":[{\"name\":\"Mr. V. Sukumar Hebbar\",\"role\":\"Senior Management Personnel\",\"direction\":\"outgoing\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

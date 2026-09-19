@@ -1,0 +1,6 @@
+{
+  "text": "{\"category\":\"agm_egm\"}",
+  "task": "categorize",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

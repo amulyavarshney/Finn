@@ -1,0 +1,6 @@
+{
+  "text": "{\"movement\":\"appointment\",\"people\":[{\"name\":\"M/s Rao & Emmar, Chartered Accountants\",\"role\":\"Statutory Auditors\",\"direction\":\"incoming\",\"background\":null}]}",
+  "task": "management-change",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

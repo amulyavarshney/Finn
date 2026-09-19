@@ -1,0 +1,6 @@
+{
+  "text": "Tata Consultancy Services Limited has informed the Exchange about Acquisition.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "Jubilant FoodWorks Limited has informed the Exchange about Change in Senior Management.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

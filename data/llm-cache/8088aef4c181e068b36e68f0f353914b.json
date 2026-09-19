@@ -1,0 +1,6 @@
+{
+  "text": "Laurus Labs Limited informed the Exchange about its Investor Presentation.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "Jubilant Foodworks Limited informs Exchange of Director/KMP/SMP resignation.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

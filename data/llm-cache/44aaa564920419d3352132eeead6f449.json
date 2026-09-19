@@ -1,0 +1,6 @@
+{
+  "text": "ITC Limited informed the Exchange about acquisition of Pulp and Paper Undertaking of Aditya Birla Real Estate Limited.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

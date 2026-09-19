@@ -1,0 +1,6 @@
+{
+  "text": "Allotted Commercial Paper of Rs. 300 crores.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

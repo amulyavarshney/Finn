@@ -1,0 +1,6 @@
+{
+  "text": "Board approved unaudited financial results for quarter ended June 30, 2026, and limited review report.",
+  "task": "headline",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}
