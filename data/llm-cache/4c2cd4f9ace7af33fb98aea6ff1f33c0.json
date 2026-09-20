@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Operating profit rose to ₹1,161 cr in Mar 2026 from ₹1,025 cr in Mar 2025, reflecting a 13% YoY increase in operating profit.\",\"Net profit climbed to ₹7.86 billion in Mar 2026 from ₹7.09 billion in Mar 2025, a 11% YoY growth in PAT.\",\"Quarterly revenue grew 39% YoY to ₹8,864 cr in Mar 2026, driven by 43% growth in domestic Wires & Cables and 71% growth in FMEG.\",\"Operating profit margin held steady at 13% in Mar 2026, matching the 13% margin reported for the quarter ended Jun 2026.\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

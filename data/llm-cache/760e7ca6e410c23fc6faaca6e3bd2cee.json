@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Sales rose 18% to ₹3,470 cr in Q1 FY27 versus ₹2,859 cr a year ago, showing strong demand growth.\",\"Operating profit increased to ₹6,16 cr in Q1 FY27 from ₹6,24 cr a year earlier, maintaining an OPM of 21% and indicating margin resilience.\",\"Domestic sales grew 22% to ₹2,854 cr in Q1 FY27, underscoring robust domestic market performance.\",\"Net profit reached ₹6,09 cr in Q1 FY27, up from ₹6,04 cr a year earlier, reflecting effective cost management amid commodity inflation.\"],\"bear\":[\"Operating profit fell to ₹6,16 cr in Q1 FY27 from ₹6,24 cr a year earlier, with OPM dropping to 18% in Q2 FY27, signalling margin pressure.\",\"Net profit dipped to ₹6,09 cr in Q1 FY27 from ₹6,04 cr a year earlier, indicating narrowing earnings.\",\"Exports remained flat at ₹5,21 cr in Q1 FY27, showing limited international growth.\",\"Commodity cost inflation and freight challenges were highlighted as key factors impacting margins in the FY27 call.\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

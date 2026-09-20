@@ -1,0 +1,6 @@
+{
+  "text": "**AGREE**  \n- Management highlighted “healthy revenue growth” and “strong profitability” for Q1 FY27, and the figures confirm this: consolidated revenues rose 39 % YoY to ₹6,210 cr and operating profit increased 32 % YoY to ₹1,136 cr, matching the stated 13.8 % EBITDA margin.  \n- The FY26 full‑year narrative of “record high revenue, EBITDA and PAT” is borne out by the annual data: revenue reached ₹28,884 cr (up 29 % YoY), EBITDA grew 35 % YoY, and PAT rose 32 % YoY to ₹2,708 cr, with PAT margins at 9.4 %.  \n\n**DIVERGE**  \n- In the Q4 FY26 call, management claimed the company had “record high revenue, EBITDA and PAT” for the quarter, yet the quarterly figures show revenue of ₹6,477 cr (up 27 % YoY) and operating profit of ₹1,021 cr, which is lower than the Q1 FY27 operating profit of ₹1,136 cr; the quarterly PAT of ₹7.9 billion is also less than the Q1 FY27 PAT of ₹7.967 billion, indicating the quarterly “record” claim is not supported by the numbers.  \n- The FY26 call also stated “the company delivered its highest ever quarterly PAT of INR 7.9 billion,” but the Q1 FY27 PAT of INR 7.967 billion exceeds this, showing the claim is not aligned with the subsequent quarterly result.",
+  "task": "narrative-vs-numbers",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

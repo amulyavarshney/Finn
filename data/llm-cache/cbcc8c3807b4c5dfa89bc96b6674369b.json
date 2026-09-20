@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We expect this to normalize to our long‑term steady range of 50 to 55 days in the coming quarters\",\"promised\":\"working capital cycle to normalize to 50‑55 days\",\"metric\":\"working capital cycle\",\"horizon\":\"coming quarters\"},{\"quote\":\"in‑line with our Project Spring guidance of investing ₹12 billion to ₹16 billion annually through FY30\",\"promised\":\"annual capital expenditure of ₹12‑16 billion through FY30\",\"metric\":\"capital expenditure\",\"horizon\":\"FY30\"},{\"quote\":\"remain on track to achieve our Project Spring targets of 1.5x‑2x industry growth and EBITDA margins in the range of 8% to 10% by FY30\",\"promised\":\"industry growth 1.5‑2x and EBITDA margins 8‑10% by FY30\",\"metric\":\"industry growth and EBITDA margins\",\"horizon\":\"FY30\"},{\"quote\":\"Looking ahead, the annual sustainable operating margin is expected to remain in the high single digits over mid‑to‑long term\",\"promised\":\"annual sustainable operating margin in high single digits over mid‑to‑long term\",\"metric\":\"operating margin\",\"horizon\":\"mid‑to‑long term\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

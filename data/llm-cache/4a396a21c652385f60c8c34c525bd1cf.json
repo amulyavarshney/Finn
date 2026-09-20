@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"revenue growth, we are going to have 15% plus EBITDA margin, definitely 27%\",\"metric\":\"revenue growth 15%+ and EBITDA margin 27%\",\"promised\":\"revenue growth 15%+ and EBITDA margin 27%\",\"horizon\":\"FY26\"},{\"quote\":\"Order inflow as we committed other than QRSAM, INR27,000 crores\",\"metric\":\"order inflow INR27,000 crores excluding QRSAM\",\"promised\":\"order inflow INR27,000 crores excluding QRSAM\",\"horizon\":\"FY26\"},{\"quote\":\"including QRSAM, it will be around INR57,000 crores\",\"metric\":\"order inflow INR57,000 crores including QRSAM\",\"promised\":\"order inflow INR57,000 crores including QRSAM\",\"horizon\":\"FY26\"},{\"quote\":\"R&D investments more than INR1,600 crores\",\"metric\":\"R&D investments > INR1,600 crores\",\"promised\":\"R&D investments > INR1,600 crores\",\"horizon\":\"FY26\"},{\"quote\":\"capex more than INR1,000 crores\",\"metric\":\"capex > INR1,000 crores\",\"promised\":\"capex > INR1,000 crores\",\"horizon\":\"FY26\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

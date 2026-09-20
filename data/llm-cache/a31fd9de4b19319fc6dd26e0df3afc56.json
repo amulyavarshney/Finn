@@ -1,0 +1,6 @@
+{
+  "text": "Polycab India Ltd sells electrical wires and cables, as well as a range of electrical and mechanical equipment (FMEG) and engineering‑construction‑project (EPC) services. The company’s revenue is driven mainly by its Wires & Cables and FMEG businesses, which together account for the bulk of sales, with the Wires & Cables segment showing a 39 % year‑on‑year growth and the FMEG segment a 71 % year‑on‑year growth in the latest quarter. The EPC business contributes a smaller share of revenue, with a decline in the most recent quarter but maintaining healthy margins. Overall, Polycab’s revenue mix is dominated by the Wires & Cables and FMEG segments, with the EPC segment playing a supporting role.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

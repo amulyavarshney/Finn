@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"On the guidance, we expect high single-digit consolidated top line growth for FY27 based on our current understanding of the regulatory and macro environment.\",\"metric\":\"high single-digit top line growth\",\"promised\":\"high single-digit consolidated top line growth\",\"horizon\":\"FY27\"},{\"quote\":\"We expect our FY27 R&D spend to be 6% to 7% of the sales for the next year.\",\"metric\":\"6% to 7% of sales\",\"promised\":\"R&D spend of 6%‑7% of sales\",\"horizon\":\"FY27\"},{\"quote\":\"We expect the acquisition to be completed in Q4 FY27.\",\"metric\":\"completion of acquisition\",\"promised\":\"acquisition completed\",\"horizon\":\"Q4 FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

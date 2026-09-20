@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"our benchmarks will remain that we should be opening around 15% of our store base as the number that we want to increase annually\",\"promised\":\"open 15% of existing store base annually\",\"horizon\":\"annual\"},{\"quote\":\"we expect this particular part of the business to be somewhere in that 22% to 23% kind of range\",\"promised\":\"general merchandise share to be 22%–23%\",\"horizon\":\"current year\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

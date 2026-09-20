@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"the combined company's revenues will be $12.4 billion\",\"metric\":\"revenue\",\"promised\":\"combined revenues of $12.4 billion\",\"horizon\":\"combined entity\"},{\"quote\":\"We believe this will be EPS accretive from the beginning\",\"metric\":\"EPS accretion\",\"promised\":\"EPS accretive from the beginning of the transaction\",\"horizon\":\"first 12 months after closing\"},{\"quote\":\"organic growth of Organon should we expect it to remain in the flattish range that we have seen in the past and to grow the business to say mid-to-high single digit\",\"metric\":\"organic revenue growth\",\"promised\":\"mid-to-high single digit organic revenue growth\",\"horizon\":\"future periods\"},{\"quote\":\"we expect this deal to close in about six to nine month time\",\"metric\":\"deal closing\",\"promised\":\"deal closing within six to nine months\",\"horizon\":\"six to nine months\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

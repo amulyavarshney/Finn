@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we remain confident of achieving our order inflow growth guidance of 10% to 12% band for the current year\",\"metric\":\"order inflow growth\",\"promised\":\"10% to 12% order inflow growth\",\"horizon\":\"FY 27\"},{\"quote\":\"we remain committed to our FY '27 growth guidance of 10% to 12% revenue growth guidance\",\"metric\":\"revenue growth\",\"promised\":\"10% to 12% revenue growth\",\"horizon\":\"FY 27\"},{\"quote\":\"we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio\",\"metric\":\"margin\",\"promised\":\"around 7.8% margin\",\"horizon\":\"FY 27\"},{\"quote\":\"we are maintaining our FY '27 working capital guidance of around 10%\",\"metric\":\"working capital\",\"promised\":\"around 10% working capital guidance\",\"horizon\":\"FY 27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

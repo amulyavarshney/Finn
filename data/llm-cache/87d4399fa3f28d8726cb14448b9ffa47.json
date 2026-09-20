@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Operating profit rose 30.4% YoY to ₹44 billion in Q4 FY26, the highest ever, driven by record sales of ₹500.79 billion\",\"Domestic sales volume grew 12.3% in the second half of FY26, a stronger rebound than the industry’s 16.7% growth\",\"Exports volume grew strongly in FY26, with Maruti Suzuki contributing 49% of India’s total passenger vehicle exports\",\"The company added 0.5 million annual production capacity this year, a rare scale-up in the industry\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

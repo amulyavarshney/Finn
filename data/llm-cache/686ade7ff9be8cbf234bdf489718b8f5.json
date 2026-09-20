@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"Phase 1 of this capacity, which is a little over 400 kiloliters is expected to be operational towards the end of this year\",\"promised\":\"Phase 1 capacity of >400 kL operational by year‑end\",\"metric\":\"capacity operational\",\"horizon\":\"end of this year\"},{\"quote\":\"We started with INR1,000 crores and up the guidance to INR1,500 crores. And in our AGM, we spoke about INR2,000 crores capex for FY '27\",\"promised\":\"FY27 capex guidance of INR2,000 crores\",\"metric\":\"capex\",\"horizon\":\"FY27\"},{\"quote\":\"Our first target is to reach asset turnover ratio a little over 1.0\",\"promised\":\"asset turnover ratio >1.0\",\"metric\":\"asset turnover ratio\",\"horizon\":\"short‑term\"},{\"quote\":\"ROCE because of heavy capex this year, maybe going to 23% will take some time. But we expect ROCE will continue to grow from last year, it is 17.7%, this year it is 19% something. Then we continue to grow our ROCE returns as well\",\"promised\":\"ROCE growth to 23%\",\"metric\":\"ROCE\",\"horizon\":\"short‑term\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

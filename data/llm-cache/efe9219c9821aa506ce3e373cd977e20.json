@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\": []}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Operating profit margin remained stable at 13% across all quarters in FY'25‑26, indicating consistent profitability despite revenue fluctuations.\",\"Order inflows grew 14% YoY in Q1 FY'27, with international order share rising to 55%, supporting future revenue growth.\",\"The total order book increased 27% YoY to Rs 7.79 trillion as of June 2026, providing a strong pipeline for the next fiscal year.\",\"Operating profit rose to ₹35,411 cr in FY'26, up from ₹34,427 cr in FY'25, showing incremental earnings growth.\"],\"bear\":[\"Net profit fell to ₹3,825 cr in Q4 FY'26 from ₹4,678 cr in Q3 FY'26, reflecting pressure on earnings in the quarter.\",\"Quarterly sales dipped to ₹63,679 cr in Jun 2025 from ₹74,392 cr in Mar 2025, indicating volatility in revenue generation.\",\"Operating profit margin slipped to 12% in Jun 2026 from a consistent 13% in prior quarters, suggesting margin compression.\",\"Revenue growth in FY'26 was 12% versus the guided 15%, highlighting execution challenges and slower top‑line expansion.\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

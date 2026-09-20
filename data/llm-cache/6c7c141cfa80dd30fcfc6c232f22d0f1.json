@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We should stick to the high single‑digit growth guidance for the full year\",\"promised\":\"high single‑digit revenue growth for FY27\",\"metric\":\"revenue growth\",\"horizon\":\"FY27\"},{\"quote\":\"We expect the acquisition to be completed in Q4 of financial year '27\",\"promised\":\"acquisition closing in Q4 FY27\",\"metric\":\"other\",\"horizon\":\"Q4 FY27\"},{\"quote\":\"We expect the tax rate to be in a similar range as in Q1 until Organon closing\",\"promised\":\"tax rate to remain in Q1 range until acquisition closing\",\"metric\":\"other\",\"horizon\":\"until Organon closing\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

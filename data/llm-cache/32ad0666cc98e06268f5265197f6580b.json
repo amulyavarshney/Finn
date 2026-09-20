@@ -1,0 +1,6 @@
+{
+  "text": "Tata Consultancy Services sells end‑to‑end information technology and business consulting services, with a strong focus on digital transformation, cloud, cybersecurity and artificial intelligence. The company’s revenue is driven by its core segments in banking, financial services and insurance (BFSI), technology and software services, and regional markets, along with a growing products and platforms portfolio. In the most recent quarter, revenue rose 13.9% year‑on‑year to ₹72,275 crore, reflecting continued growth across these segments. The mix remains heavily weighted toward the BFSI and technology‑software services segments, which together account for the bulk of the company’s top line.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

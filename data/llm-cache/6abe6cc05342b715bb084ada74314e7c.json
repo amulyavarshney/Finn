@@ -1,0 +1,6 @@
+{
+  "text": "- Quick‑commerce long‑term growth guidance – raised from 5‑6 % to 6 % (period: long‑term).  \n- Blinkit NAOV – expected to remain flat in the same range as last year (period: year‑on‑year).  \n- Blinkit take‑rate improvement – not expected to materially lift contribution margin (period: current quarter).  \n- Capex per store – increased, leading to higher efficiency and margin visibility (period: current quarter).",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

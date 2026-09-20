@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"the acquisition is on track to close by early 2027\",\"promised\":\"acquisition closing by early 2027\",\"horizon\":\"early 2027\"},{\"quote\":\"We expect the acquisition to be completed in Q4 of financial year '27\",\"promised\":\"acquisition completion in Q4 FY27\",\"horizon\":\"Q4 FY27\"},{\"quote\":\"We should stick on to the high single-digit growth for the full year\",\"promised\":\"high single-digit revenue growth for the full year\",\"horizon\":\"full year\"},{\"quote\":\"We expect the tax rate to be in a similar range as in Q1 until Organon closing\",\"promised\":\"tax rate to remain in similar range as Q1 until Organon closing\",\"horizon\":\"until Organon closing\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

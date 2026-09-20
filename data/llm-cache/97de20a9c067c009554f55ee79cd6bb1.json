@@ -1,0 +1,6 @@
+{
+  "text": "Cummins India sells power‑generation engines, industrial engines and related components, primarily to domestic customers in India and to a smaller extent abroad. The business is divided into domestic power‑generation, domestic distribution (after‑market services) and domestic industrial segments, with an export arm that supplies high‑ and low‑horsepower engines. Domestic sales account for the bulk of revenue, with exports contributing a modest share; the power‑generation segment is the largest domestic contributor.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

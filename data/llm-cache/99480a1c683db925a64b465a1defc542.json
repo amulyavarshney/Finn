@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Q1 FY27 revenue rose 2.2% sequentially to ₹72,275 cr, marking the fourth consecutive quarter of growth and a 13.9% year‑on‑year increase\",\"Operating profit margin remained robust at around 27% for most of FY26, with quarterly OPM of 27% in Sep‑Dec‑Mar 2025 and Mar 2026\",\"The company secured a total contract value of $9.5 bn in the quarter, highlighted by a $800 m mega‑deal with SKF and multiple multi‑million partnerships\",\"Headline ratios show a ROCE of 63.0% and ROE of 51.8%, indicating strong returns on capital and equity\"],\"bear\":[\"Operating margin slipped to 24% in Q1 FY27, down 130 basis points sequentially, primarily due to wage hikes\",\"Net profit margin fell to 19.2% in the quarter, reflecting pressure on profitability despite revenue growth\",\"Revenue in constant currency fell 3.1% year‑on‑year in Q1 FY26, signalling vulnerability to macroeconomic headwinds\",\"LTM attrition in IT services rose to 13.8%, up 50 basis points sequentially, suggesting increasing talent turnover\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

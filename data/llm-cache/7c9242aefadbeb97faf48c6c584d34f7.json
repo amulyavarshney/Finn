@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Operating profit rose 30.4% YoY to over ₹44 billion in Q4 FY26, the highest ever, reflecting strong sales and cost control.\",\"Domestic sales volume grew 12.3% in H2 FY26, a swing of 17.9% from the first half, driven by the 18% GST bracket and strong demand for small cars.\",\"Exports volume grew strongly in FY26, with Maruti Suzuki contributing 49% of India’s total passenger vehicle exports, underscoring its global market leadership.\",\"The company added 0.5 million annual production capacity in FY26, a rare scale in the industry, positioning it to meet pending orders and capture growth.\",\"bear\",\":\",[\"Net profit fell 6.9% YoY to ₹36 billion in Q4 FY26, mainly due to mark‑to‑market impact, indicating pricing or valuation pressures.\",\"Operating profit margin dropped to 8% in Q2 FY26 from 12% in earlier quarters, signalling cost pressures or margin compression.\",\"Quarterly operating profit fell to ₹4,313 cr in Q2 FY26 from ₹6,158 cr in Q1 FY26, showing a sharp decline in profitability.\",\"Net profit declined to ₹3,447 cr in Q2 FY26 from ₹3,659 cr in Q1 FY26, reflecting ongoing profitability challenges.\"]]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

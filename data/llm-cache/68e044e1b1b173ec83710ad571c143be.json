@@ -1,0 +1,6 @@
+{
+  "text": "No forward‑looking guidance on growth, margins or capex was provided in the transcript.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

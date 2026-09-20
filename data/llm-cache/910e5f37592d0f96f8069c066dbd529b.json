@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We spoke about INR2,000 crores capex for FY '27.\",\"promised\":\"Capex of INR2,000 crores for FY27\",\"metric\":\"capex\",\"horizon\":\"FY27\"},{\"quote\":\"Our first target is to reach asset turnover ratio a little over 1.0.\",\"promised\":\"Asset turnover ratio of a little over 1.0\",\"metric\":\"asset or capacity additions\",\"horizon\":\"FY27\"},{\"quote\":\"We expect Phase 1 of this capacity, which is a little over 400 kiloliters is expected to be operational towards the end of this year.\",\"promised\":\"Phase 1 capacity of >400 kL operational by end of 2026\",\"metric\":\"store or capacity additions\",\"horizon\":\"end of 2026\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we should land somewhere around the 85% to 90% for FY '27\",\"metric\":\"target range 85%‑90% (likely CD ratio)\",\"promised\":\"85% to 90% by FY27\",\"horizon\":\"FY27\"},{\"quote\":\"we expect system growth to be between 12% to 13% next year\",\"metric\":\"system credit growth rate\",\"promised\":\"12%‑13% system growth next year\",\"horizon\":\"FY27\"},{\"quote\":\"we can grow at a couple of hundred basis points over system growth next year\",\"metric\":\"outperformance over system growth\",\"promised\":\"approximately +200 bps versus system growth next year\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

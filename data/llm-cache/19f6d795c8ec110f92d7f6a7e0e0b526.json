@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we expect this transaction to close sometime towards the Q4 of Calendar Year 2026 or early Q1 of Calendar Year 2027\",\"promised\":\"transaction closing in Q4 2026 or early Q1 2027\",\"horizon\":\"Q4 2026 or early Q1 2027\"},{\"quote\":\"we will be able to service the debt, become cash EPS accretive from Year 1, and remove the transactional expenses, even the reported EPS should be positive from Year 1\",\"promised\":\"cash EPS accretive and positive reported EPS from Year 1\",\"horizon\":\"Year 1\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

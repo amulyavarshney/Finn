@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we expect the group order inflows to grow in the range of 10% to 12% in FY27\",\"metric\":\"volume growth\",\"promised\":\"10-12% order inflow growth\",\"horizon\":\"FY27\"},{\"quote\":\"On Revenue, we expect growth to be in the range of 10% to 12% for FY27\",\"metric\":\"revenue growth\",\"promised\":\"10-12% revenue growth\",\"horizon\":\"FY27\"},{\"quote\":\"we expect the same to be stable as well in FY27 as well\",\"metric\":\"margin\",\"promised\":\"FY27 margin stable at 7.8%\",\"horizon\":\"FY27\"},{\"quote\":\"guiding the working capital to be around 10% in FY27\",\"metric\":\"other\",\"promised\":\"working capital around 10%\",\"horizon\":\"FY27\"},{\"quote\":\"targeting order inflow growth at a CAGR return of 10% to 12%\",\"metric\":\"volume growth\",\"promised\":\"10-12% CAGR order inflow growth\",\"horizon\":\"FY27-FY31\"},{\"quote\":\"revenue growth of 12% to 15%\",\"metric\":\"revenue growth\",\"promised\":\"12-15% revenue CAGR\",\"horizon\":\"FY27-FY31\"},{\"quote\":\"Return on Equity in the range of 16\",\"metric\":\"profit growth\",\"promised\":\"ROE in the range of 16%\",\"horizon\":\"FY27-FY31\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

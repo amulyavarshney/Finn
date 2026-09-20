@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We expect the ongoing impact to be minimal, around 10 to 15 basis point\",\"metric\":\"margin\",\"promised\":\"margin impact of 10‑15 basis points\",\"horizon\":\"next quarter\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "Persistent Systems sells technology services focused on digital engineering, cloud, and AI‑driven solutions. Its core business is organized around digital engineering and platform‑driven services, with a strong emphasis on AI and emerging technologies. The company’s revenue is heavily weighted toward North America, which accounts for roughly 81 % of sales, while Europe contributes about 8–8.5 % and the remaining 10–12 % comes from other regions. Operating and net profit margins have improved steadily, with operating profit margins around 18–19 % in recent quarters.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

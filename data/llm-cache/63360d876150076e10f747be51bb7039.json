@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we expect to have double-digit revenue growth over the previous fiscal year\",\"metric\":\"double-digit revenue growth\",\"promised\":\"double-digit revenue growth for FY26\",\"horizon\":\"FY26\"},{\"quote\":\"we will target double-digit growth\",\"metric\":\"double-digit growth\",\"promised\":\"double-digit growth for FY27\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

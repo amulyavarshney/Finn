@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Quarterly sales rose to ₹309,468 cr in June 2026, up from ₹243,632 cr in June 2025, indicating strong top‑line growth.\",\"Operating profit increased to ₹47,517 cr in June 2026 versus ₹42,905 cr in June 2025, reflecting an ~11% YoY rise in earnings.\",\"Annual sales reached ₹1,055,780 cr in March 2026, a 17% increase over the ₹962,820 cr reported in March 2025, showing continued revenue expansion.\",\"Jio Platforms reported quarter‑end revenue of ₹39,173 cr, up 11.8% YoY, with EBITDA margin improving to 53.3%, up 150 basis points year‑on‑year.\"],\"bear\":[\"Operating profit margin fell to 15% in the March 2026 and June 2026 quarters, down from 17‑18% in the corresponding 2025 quarters, indicating margin compression.\",\"Net profit declined to ₹20,589 cr in March 2026 and ₹23,196 cr in June 2026, lower than the ₹30,783 cr and ₹22,611 cr recorded in the same quarters a year earlier.\",\"Annual net profit grew only to ₹95,754 cr in March 2026 from ₹81,309 cr in March 2025, a modest 18% increase despite a 17% rise in sales, suggesting weaker profit conversion.\",\"The CFO highlighted a 19% rise in finance costs YoY, which, together with higher depreciation from asset capitalization, pressured quarterly earnings.\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

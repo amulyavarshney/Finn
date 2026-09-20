@@ -1,0 +1,6 @@
+{
+  "text": "**AGREE:**  \n- Management highlighted “strong franchise” and “steady market‑share gains” in deposits and advances. The annual net‑profit numbers show a continued upward trend, rising from ₹73,440 cr in FY 25 to ₹79,219 cr in FY 26, confirming that the bank’s earnings are still growing despite a tougher environment.  \n\n**DIVERGE:**  \n- In the FY 26 earnings call the CEO said net‑income growth “clocked at 11 %,” yet the supplied profit figures show an increase of only about 8 % year‑on‑year (₹73,440 cr → ₹79,219 cr). Likewise, the CFO’s comment that margins may have “bottomed out” is not reflected in any disclosed margin numbers; the only quantitative hint is a modest quarterly profit dip (June 2026 ₹20,383 cr vs. March 2026 ₹21,074 cr), suggesting margins have not yet improved as implied.",
+  "task": "narrative-vs-numbers",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

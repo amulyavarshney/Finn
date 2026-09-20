@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we expect to start installation after the monsoons in Kutch. And as the transmission network gets ready, we will start supplying power from Kutch this year\",\"metric\":\"start supplying power from Kutch\",\"promised\":\"begin power supply from Kutch\",\"horizon\":\"this year\"},{\"quote\":\"we expect this to trend upwards and go towards $9.9 in the second half\",\"metric\":\"ceiling price of $9.9\",\"promised\":\"ceiling price to reach $9.9\",\"horizon\":\"second half\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

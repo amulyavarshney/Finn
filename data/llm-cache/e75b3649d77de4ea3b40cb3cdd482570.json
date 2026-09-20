@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Sales grew 10.1% in Q1 FY27 to INR1,51,836 million, up from INR1,45,598 million in Q4 FY26, showing continued top‑line momentum.\",\"Gross margin rose to 80.5% in Q1 FY27 from 80.8% in Q4 FY26, driven by a better product mix and maintaining high profitability.\",\"EBITDA increased to INR44,177 million in Q1 FY27, a 2.7% rise from Q4 FY26, and EBITDA margin improved to 28.9% from 27.1% year‑on‑year.\",\"Net profit after tax reached INR28,948 million in Q1 FY27, up from INR27,140 million in Q4 FY26, reflecting strong earnings growth.\"],\"bear\":[\"Operating profit fell to INR3,954 cr in Q1 FY27 from INR4,302 cr in Q4 FY26, indicating a decline in operating efficiency.\",\"Operating profit margin dropped to 27% in Q1 FY27 from 29% in Q4 FY26, showing pressure on profitability.\",\"Effective tax rate increased to 27.8% in Q1 FY27 from 22.3% in Q4 FY26, eroding net earnings.\",\"Net profit after tax fell to INR27,140 million in Q4 FY26 from INR28,948 million in Q1 FY27, highlighting a recent earnings dip.\" ]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

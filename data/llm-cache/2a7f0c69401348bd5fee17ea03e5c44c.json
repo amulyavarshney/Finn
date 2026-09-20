@@ -1,0 +1,6 @@
+{
+  "text": "Capex – Company will spend approximately INR 600 cr to INR 700 cr annually for the next 3 to 4 years.  \nGrowth – Management expects net sales to grow by more than 20 % over the next 2 to 3 years.  \nExport – Export sales will grow substantially in the full year, in line with earlier guidance.  \nOperating margin – Company aims to maintain an operating margin in the range of 11 % to 12 % for the coming year.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

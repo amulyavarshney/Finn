@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We should increase in the R&D spend and next quarter we will guide R&D next year. That will be our expected R&D spend for next year.\",\"promised\":\"increase R&D spend and provide guidance for next year\",\"horizon\":\"next year\"},{\"quote\":\"We expect that notice and comment phase to end within this next month.\",\"promised\":\"notice and comment phase will end within the next month\",\"horizon\":\"next month\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

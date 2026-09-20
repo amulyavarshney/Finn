@@ -337,4 +337,4 @@ Called out because they were decisions, not oversights:
 
 ---
 
-Not investment advice. A prototype built for a challenge.
+Not investment advice.

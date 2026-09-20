@@ -1,0 +1,6 @@
+{
+  "text": "R&D spend – Consolidated R&D investment will be 5.4 % of sales for FY27.  \nOrganon acquisition – The acquisition of Organon is expected to close in Q4 of FY27.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

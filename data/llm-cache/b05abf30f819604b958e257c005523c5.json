@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"growth of over 10% this year as compared to the last year\",\"promised\":\"growth of over 10% this year\",\"horizon\":\"FY26\"},{\"quote\":\"additional volume of about 250,000 cars available this year over the previous year\",\"promised\":\"additional volume of about 250,000 cars this year\",\"horizon\":\"FY26\"},{\"quote\":\"in the direction of 10% EBIT margin, which we have targeted to reach by 2030\",\"promised\":\"10% EBIT margin by 2030\",\"horizon\":\"2030\"},{\"quote\":\"overall, on the capex for FY 26-27, we are looking at a INR14,000 crores capex for the full year\",\"promised\":\"INR14,000 crores capex for FY26-27\",\"horizon\":\"FY26-27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

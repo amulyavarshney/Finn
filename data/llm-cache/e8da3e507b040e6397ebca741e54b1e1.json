@@ -1,0 +1,6 @@
+{
+  "text": "KEI Industries sells a range of electrical products, primarily wires and cables, stainless‑steel wire, and EPC (engineering‑procurement‑construction) services. The wire and cable division is the largest, with domestic sales accounting for about 59 % of revenue and a strong 47 % growth in extra‑high‑voltage cable sales. Stainless‑steel wire and EPC sales are smaller but growing, with EPC sales at INR 43 cr in Q1 FY27. Overall, the company’s revenue mix is dominated by domestic wire and cable sales, with export sales contributing a smaller, but improving, share.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

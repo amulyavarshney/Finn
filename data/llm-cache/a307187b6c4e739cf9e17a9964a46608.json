@@ -1,0 +1,6 @@
+{
+  "text": "Laurus Labs sells a mix of contract development and manufacturing services (CDMO), affordable medicines, and biopharma solutions. The CDMO division, which includes small‑molecule and biologics manufacturing, is the largest revenue driver, followed by the Affordable Medicines segment that focuses on antiretrovirals and oncology products. A smaller Bio division provides enzymatic and fermentation services. In the latest quarter, CDMO contributed about 41 % of revenue, Affordable Medicines about 57 %, and Bio roughly 2 %.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

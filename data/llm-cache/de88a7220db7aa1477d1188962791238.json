@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"Phase 1 capacity will be operational by the end of 2026\",\"promised\":\"Phase 1 capacity operational by end 2026\",\"metric\":\"capacity\",\"horizon\":\"2026\"},{\"quote\":\"Phase 1 will be completed by mid-2027\",\"promised\":\"Phase 1 completed by mid-2027\",\"metric\":\"completion\",\"horizon\":\"mid-2027\"},{\"quote\":\"We expect some operational leverage will come next year\",\"promised\":\"Operational leverage will improve next year\",\"metric\":\"margin\",\"horizon\":\"FY27\"},{\"quote\":\"We expect to spend around INR3,000 crores in the next 2 years\",\"promised\":\"Capex of INR3,000 crores over next 2 years\",\"metric\":\"capex\",\"horizon\":\"2 years\"},{\"quote\":\"We expect a good growth in CDMO segment in FY27\",\"promised\":\"CDMO growth in FY27\",\"metric\":\"volume growth\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

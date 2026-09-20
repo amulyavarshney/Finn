@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"business banking ... grow at 22.3% this year\",\"metric\":\"business banking segment growth\",\"promised\":\"22.3% growth this year\",\"horizon\":\"FY2026\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

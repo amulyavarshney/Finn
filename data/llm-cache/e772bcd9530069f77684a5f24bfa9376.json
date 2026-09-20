@@ -1,0 +1,6 @@
+{
+  "text": "HDFC Bank operates as a full‑service retail and wholesale bank, offering deposits, loans, credit cards, and treasury services to individuals, small‑to‑medium enterprises and corporate clients. Its core revenue drivers are retail lending and deposit‑related income, with significant contributions from wholesale and SME lending, and a growing digital‑banking platform. The bank’s product mix is heavily weighted toward consumer and SME loans, while its deposit base is split between retail and non‑retail segments. The company emphasizes branch expansion and digital adoption to support its growth strategy.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

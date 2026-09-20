@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we have seen a business banking which is the largest component of our MSME segment grow at 22.3% this year\",\"metric\":\"other\",\"promised\":\"MSME business banking segment to grow 22.3% in FY2026\",\"horizon\":\"FY2026\"},{\"quote\":\"we've seen a growth of close to 14% in terms of disbursements on mortgages on year‑on‑year\",\"metric\":\"other\",\"promised\":\"mortgage disburments to grow about 14% YoY\",\"horizon\":\"FY2026\"},{\"quote\":\"we have seen ... corporate and wholesale segment ... grow at about 18% and this is continuing from the growth that we had seen in the previous quarter\",\"metric\":\"other\",\"promised\":\"corporate and wholesale segment to grow about 18%\",\"horizon\":\"FY2026\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

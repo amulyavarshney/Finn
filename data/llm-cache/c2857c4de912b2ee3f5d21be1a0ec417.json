@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"Regarding the sales outlook for the full year 2025-'26, we expect to have double‑digit revenue growth over the previous fiscal year.\",\"promised\":\"double‑digit revenue growth for FY25-26\",\"horizon\":\"FY25-26\"},{\"quote\":\"We think we should be able to retain the 35%, 36% range gross margins or there could be some compressions going ahead, probably even expansion also if the mix is favorable.\",\"promised\":\"retain 35‑36% gross margin range over the next 12‑15 months\",\"horizon\":\"next 12‑15 months\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

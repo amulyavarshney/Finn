@@ -1,0 +1,6 @@
+{
+  "text": "Capex – FY 27 capex guidance updated to INR 3,000 crores (previously INR 1,500 crores, now INR 2,000 crores) (Q1 FY 27).  \nCapex – FY 28 capex guidance remains at INR 3,000 crores, with possibility of higher spend (Q1 FY 27).  \nR&D spend – management reiterated that R&D spend will be 5.8 % of revenue for the year (Q1 FY 27).",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

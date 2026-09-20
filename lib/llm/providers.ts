@@ -50,6 +50,16 @@ function isReasoningModel(model: string): boolean {
   return /gpt-oss|^o[134]|qwen3/i.test(model);
 }
 
+/**
+ * Ceiling on a single completion.
+ *
+ * A stalled connection is otherwise indistinguishable from a slow model and
+ * blocks forever: one warm run saw a single section sit for 41 minutes against
+ * a 60-second norm. The router treats an abort as retryable, so capping it
+ * turns an indefinite hang into a retry.
+ */
+const REQUEST_TIMEOUT_MS = Number(process.env.FINN_LLM_TIMEOUT_MS) || 120_000;
+
 /** Carries the status so the router can tell "slow down" from "give up". */
 export class ProviderError extends Error {
   constructor(
@@ -97,6 +107,7 @@ async function openAiCompatible(
 
   const res = await fetch(`${baseUrl}/chat/completions`, {
     method: "POST",
+    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
     body: JSON.stringify({
       model,
@@ -180,6 +191,7 @@ export const PROVIDERS: Record<ProviderName, ProviderSpec> = {
     call: async (key, model, req) => {
       const res = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
         headers: {
           "Content-Type": "application/json",
           "x-api-key": key,
@@ -219,6 +231,7 @@ export const PROVIDERS: Record<ProviderName, ProviderSpec> = {
         `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
         {
           method: "POST",
+          signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             systemInstruction: { parts: [{ text: req.system }] },

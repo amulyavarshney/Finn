@@ -1,0 +1,6 @@
+{
+  "text": "Bharat Electronics Ltd. designs, develops and supplies advanced electronics and integrated systems for India’s armed forces, including radar, missile, avionics, electronic warfare and command‑control solutions. Its business is broadly divided among Army, Navy and Air Force customers, each contributing roughly a third of total revenue. The company’s revenue mix is therefore about 30 % Army, 30 % Navy and 30 % Air Force, with the remaining 10 % from other defence and non‑defence contracts. In FY 26‑27, annual sales reached ₹27,610 cr, operating profit ₹8,053 cr and net profit ₹6,062 cr, supported by an order book of ₹72,258 cr.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

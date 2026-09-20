@@ -1,0 +1,6 @@
+{
+  "text": "**AGREE**  \n- Management highlighted a “sharp turnaround” in the second half of FY 25‑26, noting a 12.3 % domestic sales volume growth. The quarterly figures show domestic sales rose from 386 05 cr in Jun 25 to 423 44 cr in Sep 25 (≈12 % YoY), supporting the claim of a strong rebound.  \n- The call praised the VICTORIS launch and its “strong customer acceptance.” Quarterly operating profit jumped 30.4 % YoY to ₹44 bn (from ₹33 bn in Q4 25), indicating the model’s contribution to profitability.  \n\n**DIVERGE**  \n- Management spoke of a “swing of about 17.9 %” in domestic sales volume over the year, yet the annual sales figures show a decline from 152 913 cr in Mar 25 to 183 316 cr in Mar 26 (≈20 % YoY), which is higher than the 17.9 % claimed.  \n- The transcript states net profit declined 6.9 % YoY to ₹36 bn, but the quarterly net profit actually fell from ₹39 11 cr in Mar 25 to ₹34 47 cr in Jun 26 (≈12 % decline), a larger drop than the 6.9 % mentioned.",
+  "task": "narrative-vs-numbers",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

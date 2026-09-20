@@ -1,0 +1,6 @@
+{
+  "text": "**AGREE**  \n- Management highlighted a 29 % revenue growth in Q1 FY 27, which matches the quarterly figure of ₹2,026 cr versus ₹1,570 cr in Q2 2025.  \n- The CFO noted an EBITDA margin of 31.8 % in Q1 FY 27, consistent with the quarterly OPM % of 32 % reported for Jun 2026.  \n- The annual 23 % revenue growth for FY 26 cited by the CEO aligns with the annual sales jump from ₹5,541 cr (Mar 2025) to ₹6,813 cr (Mar 2026).\n\n**DIVERGE**  \n- Management spoke of “significant acceleration” in the CDMO business, yet the quarterly CDMO sales grew only 69 % to ₹835 cr in Q1 FY 27, which is modest compared to the 38 % growth reported for the small‑molecule CDMO segment over the full year.  \n- The CEO claimed a “healthy” gross margin around 60 % for FY 26, but the quarterly gross margin for Q4 FY 26 was 61.4 %, slightly higher, indicating the quarterly figure is more favorable than the annual average.  \n- The CFO mentioned a capex of ₹394 cr for Q1 FY 27, while the May 2026 transcript states a full‑year capex of ₹1,070 cr, suggesting the quarterly spend is lower than the annual guidance, contrary to the earlier claim of “close to ₹1,500 cr” guidance.",
+  "task": "narrative-vs-numbers",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we'll do so for the rest of the year\",\"metric\":\"honor all job offers\",\"promised\":\"honor all job offers for the remainder of the fiscal year\",\"horizon\":\"rest of the year\"},{\"quote\":\"as growth picks up, we expect that to materially trend downwards towards the 45% range, let's say, over the next two, three quarters\",\"metric\":\"employee cost as a percentage of revenue\",\"promised\":\"reduce employee cost to around 45% of revenue\",\"horizon\":\"next 2-3 quarters\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

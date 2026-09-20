@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"target is 15%\",\"promised\":\"15% revenue growth for FY27\",\"metric\":\"revenue growth\",\"horizon\":\"FY27\"},{\"quote\":\"current year EBITDA margin guidance we have given of 28%\",\"promised\":\"EBITDA margin of 28% for FY27\",\"metric\":\"margin\",\"horizon\":\"FY27\"},{\"quote\":\"we are investing under capex which will take care of our production and other type of investments. And this indigenization, etcetera, comes from our R&D budget. And we are anyway we had given guidance also, more than INR2,200 crores R&D budget we have allocated for this year\",\"promised\":\"Capex of more than INR1,200 crores and R&D investment of more than INR2,200 crores for FY27\",\"metric\":\"capex\",\"horizon\":\"FY27\"},{\"quote\":\"order inflow of more than INR20,000 crores including QRSAM\",\"promised\":\"Order inflow of more than INR20,000 crores for FY27\",\"metric\":\"volume growth\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

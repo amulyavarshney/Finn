@@ -1,0 +1,6 @@
+{
+  "text": "Maruti Suzuki sells passenger vehicles, with its core product mix comprising small‑car sedans and hatchbacks, mid‑SUVs, and a growing electric‑vehicle line. The company’s domestic market drives the bulk of sales, while exports account for a significant share of volume and revenue growth. In FY 25‑26 the firm delivered 2.42 million units, with 538,994 domestic and 137,215 export units, and recorded net sales of about ₹1.74 trillion, reflecting a 20.2 % rise year‑on‑year. The business continues to expand its product portfolio with new models such as the Dzire, VICTORIS, and e VITARA, while maintaining a strong dealer and service network across India.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

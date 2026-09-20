@@ -1,0 +1,6 @@
+{
+  "text": "EBIT margin guidance for Wires & Cables business – maintain medium‑to‑long‑term margin guidance of 11% to 13% (FY 2027 onward).  \nEBITDA margin target for FMEG business – aim for EBITDA margins of 8% to 10% by FY 2030.  \nCapital expenditure – no forward‑looking capex guidance was provided; the company only disclosed the INR 3.2 billion capex for the quarter ended June 30 2026.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

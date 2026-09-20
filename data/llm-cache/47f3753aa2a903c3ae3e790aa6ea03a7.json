@@ -1,0 +1,6 @@
+{
+  "text": "Eternal Limited operates a multi‑channel digital marketplace that sells food and grocery items through its food‑delivery service, its quick‑commerce arm Blinkit, and a separate Bistro kitchen‑as‑a‑service business. The company’s revenue is driven mainly by the quick‑commerce segment, which has shown the fastest sales growth, followed by food delivery, while Bistro contributes a smaller, but growing, share of the top line. The overall revenue mix is shifting toward Blinkit, with food delivery and Bistro adding incremental volume and margin upside.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

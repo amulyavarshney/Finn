@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"combined company's revenues will be $12.4 billion\",\"metric\":\"revenue growth\",\"promised\":\"combined revenues of $12.4 billion\",\"horizon\":\"\"},{\"quote\":\"to grow the business to say mid-to-high single digit\",\"metric\":\"revenue growth\",\"promised\":\"mid-to-high single digit revenue growth\",\"horizon\":\"\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

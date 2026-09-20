@@ -1,0 +1,6 @@
+{
+  "text": "Revenue growth – “We are sticking to the guidance of INR 55,000 + crores for the year, including QRSAM, and we do not foresee any problem in achieving this order inflow.” (FY27)\n\nEBITDA margin – “Current year EBITDA margin guidance we have given is 28%.” (FY27)\n\nCapital expenditure – No forward‑looking statement on capex was provided in the transcript.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

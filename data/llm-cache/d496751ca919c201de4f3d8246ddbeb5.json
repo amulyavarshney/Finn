@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We expect that notice and comment phase to end within this next month.\",\"promised\":\"CMS notice and comment phase ends within next month\",\"metric\":\"other\",\"horizon\":\"next month\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

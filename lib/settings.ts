@@ -8,9 +8,9 @@ import type { AlertRule } from "@/lib/types";
 /**
  * User settings live in localStorage.
  *
- * A prototype graded on a phone should not put a login between the reviewer and
- * the product, and every one of these values is a personal preference rather
- * than shared state, so there is nothing a server would add.
+ * Every one of these values is a personal preference rather than shared state,
+ * so there is nothing a server would add — and nothing worth putting a login
+ * in front of.
  */
 
 export type WindowKey = "24h" | "3d" | "1w" | "custom";

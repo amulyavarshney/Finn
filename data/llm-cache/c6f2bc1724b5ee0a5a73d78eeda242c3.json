@@ -1,0 +1,6 @@
+{
+  "text": "**AGREE**  \n- Management highlighted “solid demand across key end markets” and “continued order execution.” The quarterly sales for June 2026 were ₹3,407 cr, up 18 % YoY from ₹2,859 cr, matching the transcript’s claim of higher sales.  \n- The CFO noted that “higher commodity costs and inflation remain key factors influencing margins.” The operating‑profit margin fell from 21 % in Q3 2025 to 18 % in Q2 2026, confirming a margin squeeze.\n\n**DIVERGE**  \n- Management spoke of “high‑horsepower exports at INR296 cr are a 16 % increase over last year.” The actual export sales for the quarter were ₹521 cr, flat YoY, not a 16 % rise.  \n- The transcript projected “moderate growth across segments” for FY 26/27, yet the annual operating profit for March 2026 was ₹2,080 cr, a 21 % YoY increase, indicating stronger growth than the “moderate” tone.",
+  "task": "narrative-vs-numbers",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

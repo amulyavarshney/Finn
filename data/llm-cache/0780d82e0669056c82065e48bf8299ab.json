@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We expect the ongoing impact to be minimal, around 10 to 15 basis point\",\"metric\":\"impact of new labor code on margins\",\"promised\":\"impact of new labor code will be 10‑15 bps\",\"horizon\":\"next quarter onward\"},{\"quote\":\"We will continue this exercise till the end of this year\",\"metric\":\"continuation of restructuring/release exercise\",\"promised\":\"exercise will continue until year‑end 2026\",\"horizon\":\"till end of 2026\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

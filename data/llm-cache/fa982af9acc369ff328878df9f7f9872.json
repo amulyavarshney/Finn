@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"We are confident of exceeding our full year FY '26 guidance of 10% growth in group order inflows for the current year\",\"metric\":\"group order inflows growth\",\"promised\":\"exceed 10% growth in FY26 order inflows\",\"horizon\":\"FY 2026\"},{\"quote\":\"We maintain our full year revenue growth guidance at 15%\",\"metric\":\"group revenue growth\",\"promised\":\"15% revenue growth for FY26\",\"horizon\":\"FY 2026\"},{\"quote\":\"We are reasonably confident to achieve our full year EBITDA margin target of 8.5%\",\"metric\":\"EBITDA margin\",\"promised\":\"8.5% EBITDA margin for FY26\",\"horizon\":\"FY 2026\"},{\"quote\":\"Our guidance for working capital for FY '26 remains unchanged at around 12% by March 2026\",\"metric\":\"working capital as % of revenue\",\"promised\":\"working capital around 12% by March 2026\",\"horizon\":\"FY 2026\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"as growth picks up, we expect that to materially trend downwards towards the 45% range, let's say, over the next two, three quarters\",\"metric\":\"margin\",\"promised\":\"employee cost to fall to around 45% of revenue over the next 2‑3 quarters\",\"horizon\":\"next two to three quarters\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

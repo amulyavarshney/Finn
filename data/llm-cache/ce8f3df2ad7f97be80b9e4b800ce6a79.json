@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we should stick on to the high single-digit growth for the full year\",\"metric\":\"revenue growth\",\"promised\":\"high single-digit revenue growth for FY27\",\"horizon\":\"FY27\"},{\"quote\":\"we expect the tax rate to be in a similar range as in Q1\",\"metric\":\"other\",\"promised\":\"tax rate to remain in the same range as Q1\",\"horizon\":\"until Organon transaction completes (early 2027)\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

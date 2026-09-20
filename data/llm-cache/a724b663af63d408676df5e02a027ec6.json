@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we are very sure of maintaining this 20% plus growth of non-mutual fund revenue\",\"promised\":\"maintain 20%+ growth of non-mutual fund revenue\",\"metric\":\"20%+ growth of non-mutual fund revenue\",\"horizon\":\"year\"},{\"quote\":\"our aim is to at least retain what we are in Q4, right, in terms of the EBITDA margins for next year\",\"promised\":\"retain Q4 EBITDA margin for next year\",\"metric\":\"retain Q4 EBITDA margin\",\"horizon\":\"next year\"},{\"quote\":\"we expect that this 30 percentage will start creeping up in the coming quarters\",\"promised\":\"30% non-mutual fund share of revenue will creep up in coming quarters\",\"metric\":\"30% non-mutual fund share of revenue\",\"horizon\":\"coming quarters\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

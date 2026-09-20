@@ -1,0 +1,6 @@
+{
+  "text": "Computer Age Management Services Ltd. provides a range of financial‑services solutions, primarily through its mutual‑fund (MF) platform and a broad non‑MF suite that includes payments, alternatives, KRA (KYC‑Ready‑Account) services, and GIFT City‑based retail and SIF offerings. The MF arm generates about 10 % revenue growth year‑on‑year, while the non‑MF segment drives stronger growth, expanding over 28 % in the quarter. Together, these two pillars account for the company’s total revenue, with the non‑MF business representing the larger share of the top line.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

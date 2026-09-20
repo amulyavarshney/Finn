@@ -1,0 +1,6 @@
+{
+  "text": "EBITDA growth – 16% for FY27 (overall)  \nOperating EBITDA margin – 46.4% for FY27 (highest ever)  \nNon‑MF revenue growth – 20% blended for FY27 (could be 22‑23%)  \nMF revenue growth – at least 12% for FY27  \nOverall revenue growth – 13% for FY27 (16% EBITDA growth)  \nCapex – no forward‑looking guidance provided in the transcript.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

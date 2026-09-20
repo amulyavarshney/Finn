@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we remain on track to execute our planned capex program of INR 60 billion to INR 80 billion over the next 5 years\",\"promised\":\"capex program of INR 60-80 billion over next 5 years\",\"horizon\":\"next 5 years\"},{\"quote\":\"we remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030\",\"promised\":\"export contribution >10% by FY2030\",\"horizon\":\"FY2030\"},{\"quote\":\"our annual sustainable operating margin is expected to remain in the mid- to high single digits over mid- to long term\",\"promised\":\"mid- to high single digit operating margin over mid- to long term\",\"horizon\":\"mid- to long term\"},{\"quote\":\"we also increased our dividend payout to approximately 27.2%, up from 26.3% last year as we move steadily towards our stated objective of exceeding 30% by FY 2030\",\"promised\":\"dividend payout >30% by FY2030\",\"horizon\":\"FY2030\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

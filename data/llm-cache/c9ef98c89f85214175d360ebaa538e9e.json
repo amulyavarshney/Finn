@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"DBU business absolutely has the potential to grow at 20% growth over this year and the next few years as well.\",\"promised\":\"20% growth for DBU business over this year and the next few years\",\"horizon\":\"this year and the next few years\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

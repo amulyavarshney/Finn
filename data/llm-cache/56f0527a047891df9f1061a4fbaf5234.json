@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"ETR for FY26 will be in the range of 20%-24%\",\"metric\":\"Effective tax rate\",\"promised\":\"20% to 24% ETR\",\"horizon\":\"FY26\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

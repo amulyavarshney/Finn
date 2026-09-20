@@ -2,7 +2,7 @@ import type { z } from "zod";
 
 import { cacheKey, readCache, writeCache } from "./cache";
 import { record } from "./ledger";
-import { estimateTokens, reserveSlot } from "./limiter";
+import { estimateTokens, fitToCeiling, reserveSlot } from "./limiter";
 import {
   ProviderError,
   resolveProvider,
@@ -46,6 +46,17 @@ export function activeProviderLabel(): string | null {
 
 const MAX_ATTEMPTS = 5;
 
+/**
+ * Ceiling on a provider's own retry-after hint.
+ *
+ * A per-minute bucket asks for seconds. A hint far beyond that means a longer
+ * budget is exhausted, and honouring it literally parks the process on a
+ * single timer — one warm run sat idle for 89 minutes on one section, holding
+ * up every ticker behind it. Past this, falling back deterministically is
+ * strictly better than blocking the run.
+ */
+const MAX_BACKOFF_MS = 60_000;
+
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /**
@@ -61,6 +72,15 @@ async function callWithRetry(
   task: string,
 ): Promise<ChatResponse | null> {
   const apiKey = process.env[provider.envKey]!.trim();
+
+  const user = fitToCeiling(req.system, req.user, req.maxTokens);
+  if (user.length < req.user.length) {
+    console.warn(
+      `[llm] ${task} trimmed ${req.user.length - user.length} chars of context to fit the token ceiling`,
+    );
+    req = { ...req, user };
+  }
+
   const cost = estimateTokens(req.system, req.user, req.maxTokens);
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
@@ -78,6 +98,14 @@ async function callWithRetry(
       }
 
       const hinted = err instanceof ProviderError ? err.retryAfterMs : null;
+
+      if (hinted !== null && hinted > MAX_BACKOFF_MS) {
+        console.warn(
+          `[llm] ${task} giving up: provider asked to wait ${Math.round(hinted / 1000)}s`,
+        );
+        return null;
+      }
+
       await sleep(hinted ?? Math.min(8000, 500 * 2 ** attempt));
     }
   }

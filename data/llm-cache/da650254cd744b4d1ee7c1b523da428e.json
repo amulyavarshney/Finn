@@ -1,0 +1,6 @@
+{
+  "text": "{\"bull\":[\"Net profit grew from ₹73,440 cr in FY25 to ₹79,219 cr in FY26, indicating continued earnings expansion.\",\"Deposit growth of 14.4% in FY26 outpaced credit growth of 12%, supporting a strong funding base as highlighted in the April 2026 call.\",\"The bank’s capital adequacy stood at 19.7% and gross NPA ratio remained low at 1.15% in FY26, underscoring a solid balance‑sheet position.\",\"Digital adoption reached 97% for payments and 92% for acquisition journeys, reflecting successful technology investments that can drive future efficiency and revenue.\"],\"bear\":[\"Quarterly net profit fell to ₹20,383 cr in Q2 FY27 from ₹21,074 cr in Q1 FY27, showing a slowdown in profit momentum.\",\"Management noted that non‑retail deposit costs remain elevated and the borrowing mix stays at about 11%, which could pressure margins in the near term.\",\"The CFO warned that cost‑of‑funds improvements of 40‑50 basis points are unlikely to materialise quickly, indicating limited near‑term margin upside.\",\"The bank cited intense competition and thin spreads on the corporate side, suggesting pricing pressure could constrain future profitability.\"]}",
+  "task": "bull-bear",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

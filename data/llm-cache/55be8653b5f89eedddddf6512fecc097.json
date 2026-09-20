@@ -1,0 +1,6 @@
+{
+  "text": "Larsen & Toubro sells a broad range of engineering, construction, manufacturing and technology services, delivering infrastructure, utilities, energy, manufacturing, and IT solutions to both public and private customers. The company’s revenue is driven by its “Infrastructure and Utilities”, “Energy – Conventional”, “Energy – Green”, “Manufacturing and Products”, “Technology, Platforms and Services”, and “Realty” segments, with the Infrastructure and Utilities and Energy segments accounting for the bulk of sales. International operations contribute about 51 % of total revenue, while domestic sales make up the remaining 49 %. The order book is roughly 45 % Infrastructure and Utilities, 28 % Energy – Conventional, and 19 % Energy – Green, with a near‑even split between domestic and international projects.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

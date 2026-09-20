@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we will be exceeding the 10% order inflow guidance for FY '26\",\"metric\":\"other\",\"promised\":\"order inflow will exceed 10% for FY26\",\"horizon\":\"FY26\"},{\"quote\":\"we are reasonably confident of achieving our full year revenue growth guidance of 15%\",\"metric\":\"revenue growth\",\"promised\":\"15% revenue growth for FY26\",\"horizon\":\"FY26\"},{\"quote\":\"Our Projects & Manufacturing EBITDA at 7.9% for 9 months of the current year is in line with the target that we have set ourselves at 8.5% for the full year FY '26\",\"metric\":\"margin\",\"promised\":\"Projects & Manufacturing EBITDA margin of 8.5% for FY26\",\"horizon\":\"FY26\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

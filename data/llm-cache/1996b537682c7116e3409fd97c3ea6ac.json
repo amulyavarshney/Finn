@@ -1,0 +1,6 @@
+{
+  "text": "**AGREE**  \n- Management highlighted a 10.1% sales growth in Q1 FY27, which aligns with the quarterly figure of ₹15,521 cr versus ₹14,851 cr in Q4 FY26, a 10.1% increase.  \n- The call noted a 28.9% EBITDA margin for Q1 FY27, matching the quarterly EBITDA margin of 29% reported in the figures.  \n- The CFO’s statement that net profit after tax was ₹28,948 m (≈₹2,894 cr) is consistent with the quarterly net profit of ₹2,901 cr for Jun‑26.\n\n**DIVERGE**  \n- Management emphasized a “high” gross margin of 80.5% for Q1 FY27, yet the figures show a quarterly operating profit margin of 29%, indicating a lower operating efficiency than the gross‑margin claim.  \n- The transcript claims “sales growth of 13.6% vis‑a‑vis Q4 FY25” for Q4 FY26, but the figures show Q4 FY26 sales of ₹14,559 cr versus Q4 FY25 ₹13,598 cr, a growth of only 7.1%.  \n- The call projected “high single‑digit consolidated top‑line growth for FY27,” yet the annual sales figure for Mar 2026 is ₹58,462 cr, an 11.9% increase over Mar 2025, which is above single digits.",
+  "task": "narrative-vs-numbers",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

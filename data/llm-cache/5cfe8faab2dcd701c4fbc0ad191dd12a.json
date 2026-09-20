@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"Customers at 100 million, we continue to acquire about 6 million to 8 million customers a year\",\"metric\":\"customer acquisition\",\"promised\":\"acquire 6‑8 million new customers annually\",\"horizon\":\"future years\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

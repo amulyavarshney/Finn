@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"Phase 1 capacity of about 400 kilolitres to be handy by end of 2026\",\"promised\":\"400 kilolitres capacity by end of 2026\",\"metric\":\"store or capacity additions\",\"horizon\":\"end of 2026\"},{\"quote\":\"We will invest closer to INR1,000 crores for the current year\",\"promised\":\"INR1,000 crores capex for FY25\",\"metric\":\"capex\",\"horizon\":\"FY25\"},{\"quote\":\"We invested about INR480 crores in H1, and we expect to invest similar amount in H2 as well\",\"promised\":\"INR480 crores capex in H2 FY25\",\"metric\":\"capex\",\"horizon\":\"H2 FY25\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"near a year from now ... you should look at between 20% and 25%\",\"metric\":\"revenue growth\",\"promised\":\"20%‑25% growth\",\"horizon\":\"within the next year\"},{\"quote\":\"to get to in 3 years' time to a consolidated 20 percentage EBITDA ... at least to get there within the next 3 years\",\"metric\":\"EBITDA margin (non‑MF)\",\"promised\":\"≈20% EBITDA margin\",\"horizon\":\"within the next 3 years\"},{\"quote\":\"we will be more than 45%. We will creep up to 46% and 47% in good quarters\",\"metric\":\"overall EBITDA margin\",\"promised\":\">45%, targeting 46‑47% in strong quarters\",\"horizon\":\"ongoing/near term\"},{\"quote\":\"4 logos to be taken live in '26, ... about 5 to 6 go‑lives ... within '26\",\"metric\":\"new platform go‑lives\",\"promised\":\"5‑6 new go‑lives\",\"horizon\":\"FY 2026\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "The excerpts supplied do not contain any forward‑looking guidance from management on growth, margins, or capital expenditure for future periods.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

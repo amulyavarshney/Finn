@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"investing ₹12 billion to ₹16 billion annually through FY30\",\"metric\":\"capex\",\"promised\":\"₹12-16 bn capex annually through FY30\",\"horizon\":\"FY30\"},{\"quote\":\"remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30\",\"metric\":\"revenue growth\",\"promised\":\"1.5x‑2x industry growth by FY30\",\"horizon\":\"FY30\"},{\"quote\":\"remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30\",\"metric\":\"margin\",\"promised\":\"EBITDA margins 8‑10% by FY30\",\"horizon\":\"FY30\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

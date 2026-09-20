@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we are confident that it will be on a downward glide path and we shall meet the glide path that we had indicated earlier in terms of the CD ratio\",\"metric\":\"other\",\"promised\":\"CD ratio will follow a downward glide path as previously indicated\",\"horizon\":\"by March 2026 and 2027\"},{\"quote\":\"we should land somewhere around the 85% to 90% for FY '27\",\"metric\":\"other\",\"promised\":\"Loan‑deposit ratio of 85%‑90%\",\"horizon\":\"FY 2027\"},{\"quote\":\"we expect system growth to be between 12% to 13% next year and we can grow at a couple of hundred basis points above that\",\"metric\":\"revenue growth\",\"promised\":\"System growth 12‑13% and bank growth ~2‑3 percentage points above system\",\"horizon\":\"next fiscal year\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

@@ -1,0 +1,6 @@
+{
+  "text": "Sun Pharmaceutical sells a mix of generic formulations, branded generics, and innovative specialty medicines. Its India formulations segment accounts for about 36 % of consolidated sales, while the Global Innovative Medicines business contributes roughly 22 % and the U.S. business about 27 %. Emerging markets and the rest of the world together make up around 33 % of revenue, with the remaining share coming from other generic and specialty product lines. The company’s revenue mix is therefore driven primarily by its domestic generic portfolio, supplemented by growth in innovative specialty medicines and expanding international markets.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

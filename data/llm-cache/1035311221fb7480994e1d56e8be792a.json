@@ -1,0 +1,6 @@
+{
+  "text": "No forward‑looking guidance was provided by management in the July 2026 earnings conference call.",
+  "task": "guidance-summary",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

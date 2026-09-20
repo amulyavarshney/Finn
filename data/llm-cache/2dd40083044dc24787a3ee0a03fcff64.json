@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"during next 12 to 15 months our generation capacity will also start coming up\",\"metric\":\"commissioning of first‑generation capacity\",\"promised\":\"generation capacity will start coming up\",\"horizon\":\"next 12‑15 months\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}

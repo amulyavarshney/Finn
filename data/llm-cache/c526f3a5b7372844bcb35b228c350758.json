@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we are retaining our revenue growth of more than 15%\",\"metric\":\"revenue growth\",\"promised\":\"more than 15% revenue growth for FY27\",\"horizon\":\"FY27\"},{\"quote\":\"EBITDA margins will be more than 28%\",\"metric\":\"margin\",\"promised\":\"more than 28% EBITDA margin for FY27\",\"horizon\":\"FY27\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

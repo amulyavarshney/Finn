@@ -168,9 +168,7 @@ export default async function ResearchPage({ params }: { params: Promise<{ symbo
             {snapshot.transcripts.length === 1 ? "" : "s"} read ·{" "}
             {tables?.annualReports.length ?? 0} annual reports linked
           </p>
-          <p className="text-[10px] text-tertiary">
-            Not investment advice. A prototype for a build challenge.
-          </p>
+          <p className="text-[10px] text-tertiary">Not investment advice.</p>
         </footer>
       </div>
     </>

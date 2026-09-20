@@ -1,0 +1,6 @@
+{
+  "text": "Reliance Industries sells a diversified mix of products and services that span the entire oil‑to‑chemicals value chain, digital connectivity, retail, consumer goods and media. The core “O2C” segment—refining, petrochemicals, exploration and production—drives the bulk of the company’s sales, while the Jio Platforms unit brings in revenue from 5G connectivity, digital services and content. Retail and FMCG businesses contribute a smaller but growing share, and JioStar adds media and advertising income. Roughly half of the company’s revenue comes from consumer‑focused businesses, with the remaining half split between energy, petrochemicals and digital platforms.",
+  "task": "business-snapshot",
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b"
+}

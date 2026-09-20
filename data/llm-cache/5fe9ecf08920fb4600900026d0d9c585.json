@@ -1,0 +1,6 @@
+{
+  "text": "{\"claims\":[{\"quote\":\"we expect to start installation after the monsoons in Kutch and start supplying power from Kutch this year\",\"metric\":\"other\",\"promised\":\"begin installations post‑monsoon and commence power supply from Kutch within the current year\",\"horizon\":\"this year\"},{\"quote\":\"we have announced at 55 MWp of solar PV per day and 150 MWh of battery installations per day at the peak capacity\",\"metric\":\"store or capacity additions\",\"promised\":\"install 55 MWp of solar PV and 150 MWh of battery capacity daily at peak\",\"horizon\":\"ongoing, peak capacity period\"},{\"quote\":\"we expect the ceiling price to trend upwards and go towards $9.9 in the second half\",\"metric\":\"other\",\"promised\":\"ceiling price to rise to $9.9\",\"horizon\":\"second half of FY2026-27\"},{\"quote\":\"for the next quarter, we plan to enter into Australia and African markets\",\"metric\":\"other\",\"promised\":\"expand into Australia and African markets\",\"horizon\":\"next quarter\"}]}",
+  "task": "guidance-extract",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b"
+}
