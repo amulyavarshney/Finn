@@ -1,8 +1,36 @@
+<div align="center">
+
 # FINN
 
-A mobile-first investment agent for Indian equities. It does two things: it tells you what changed
-in your portfolio and why you should care, and it researches any NSE company from primary sources
-on demand.
+**A mobile-first investment agent for Indian equities.**
+
+It tells you what changed in your portfolio and why you should care,
+and it researches any NSE company from primary sources on demand.
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Groq](https://img.shields.io/badge/LLM-provider--agnostic-F55036?logo=groq&logoColor=white)](https://groq.com)
+[![Runs without a key](https://img.shields.io/badge/runs%20without%20an%20API%20key-brightgreen)](#it-runs-without-an-api-key)
+
+<img src="docs/media/walkthrough.gif" alt="FINN walkthrough — the ranked brief, a filing's score breakdown, the research sheet, the command bar and the controls" width="300">
+
+</div>
+
+---
+
+## Screens
+
+|  |  |
+|:--:|:--:|
+| <img src="docs/media/brief-dark.png" width="280" alt="The Brief in dark theme"><br>**The Brief** — ranked feed behind a materiality dial | <img src="docs/media/score-breakdown.png" width="280" alt="A filing expanded to show parsed results"><br>**Progressive disclosure** — parsed results, QoQ and YoY |
+| <img src="docs/media/sheet-dark.png" width="280" alt="The research sheet for Titan"><br>**Research sheet** — any NSE ticker, cited throughout | <img src="docs/media/ask-dark.png" width="280" alt="The Ask command bar"><br>**Ask FINN** — a command bar, deliberately not a chat |
+| <img src="docs/media/tune-dark.png" width="280" alt="The Tune screen"><br>**Tune** — your thresholds, watchlist and cost ledger | <img src="docs/media/brief-light.png" width="280" alt="The Brief in light theme"><br>**Light theme** — same material, different canvas |
+
+---
+
+## Quickstart
 
 ```bash
 npm install
@@ -10,7 +38,14 @@ npm run ingest      # pulls EOD prices, filings, financials and transcripts
 npm run dev         # http://localhost:3000
 ```
 
-No API key is required to run it. More on that below.
+No API key is required to run it. [More on that below.](#it-runs-without-an-api-key)
+
+| Command | What it does |
+|---|---|
+| `npm run ingest` | Builds `data/snapshot/*.json` for the portfolio |
+| `npm run warm` | Pre-generates the research sheet's written sections |
+| `npm run sources` | Upstream health check across all four sources |
+| `npm run inspect` | Eyeball the ranking against real filings |
 
 ---
 
@@ -21,9 +56,9 @@ it." FINN takes that literally, and two decisions follow from it.
 
 **Filtering is a physical control, not a settings page.** The home screen is a single ranked feed
 with a materiality dial at the top. Drag it and cards leave the feed under your thumb, with a live
-`showing 7 of 43` counter. Of the 4,840 filings ingested here, **69% are routine** — 409 of them are
-literally "Copy of Newspaper Publication". Being able to bury that, visibly and on demand, by feel,
-*is* the product.
+`showing 16 of 50` counter. Of the 4,840 filings ingested here, **69% are routine** — 409 of them
+are literally "Copy of Newspaper Publication". Being able to bury that, visibly and on demand, by
+feel, *is* the product.
 
 **Answers are artifacts, not transcripts.** Ask FINN is a command bar, not a chat. It returns a
 structured, citable research sheet you scroll back through. Chat is the obvious move here, and it
@@ -33,21 +68,31 @@ is the wrong one — a conversation scrolls away, and a research sheet is someth
 
 ## Architecture
 
-```
-        ┌── local ingest (npm run ingest) ────────────┐
-        │                                              │
-  NSE announcements ─┐                                 │
-  Yahoo Finance EOD ─┼─→ categorise → score → enrich ──┼─→ data/snapshot/*.json
-  screener.in tables ┘                                 │        (committed)
-  concall PDFs ──────┘                                 │
-        └──────────────────────────────────────────────┘
-                                 │
-                          Next.js on Vercel
-                          ┌──────┴───────┐
-                    The Brief      Research sheet
-                     (push)            (pull)
-                                          │
-                              unknown ticker → live fetch
+```mermaid
+flowchart TB
+    NSE["NSE<br/>announcements"] --> ING
+    YF["Yahoo Finance<br/>EOD prices"] --> ING
+    SC["screener.in<br/>statements"] --> ING
+    PD["Concall<br/>PDFs"] --> ING
+
+    subgraph ING["Local ingest · npm run ingest"]
+        direction LR
+        CAT["categorise"] --> SCO["score"] --> ENR["enrich"]
+    end
+
+    ING --> SNAP[("data/snapshot/*.json<br/>committed to the repo")]
+
+    subgraph APP["Next.js on Vercel"]
+        direction LR
+        BR["The Brief<br/><i>push</i>"]
+        RS["Research sheet<br/><i>pull</i>"]
+    end
+
+    SNAP --> APP
+    RS -. "unknown ticker" .-> LIVE["live fetch"]
+
+    classDef store fill:#1e293b,stroke:#475569,color:#e2e8f0
+    class SNAP store
 ```
 
 ### Why snapshots rather than fetching at request time
@@ -84,6 +129,7 @@ scripts/
   check-sources.ts          npm run sources — upstream health check
   inspect-snapshot.ts       eyeball the ranking against real filings
   survey-descs.ts           the survey the categorisation rules are built from
+  make-demo-gif.py          rebuild the walkthrough GIF from docs/media/*.png
 ```
 
 ### Warming the pull side
@@ -98,7 +144,8 @@ npm run warm                  # INFY, TITAN, DIXON
 npm run warm -- RELIANCE LT   # any others
 ```
 
-`INFY`, `TITAN` and `DIXON` are already warm in this repo.
+Fourteen of the eighteen portfolio tickers are warm in this repo. The rest fall back to rules
+until the next warm pass — the free tier's daily token budget, not the code, is the limit.
 
 ### Deploying
 
@@ -107,7 +154,7 @@ Point Vercel at the repo and it builds with no configuration. One setting in
 
 ```ts
 outputFileTracingIncludes: {
-  "/**": ["./data/snapshot/**", "./data/llm-cache/**"],
+  "/**": ["./data/snapshot/**", "./data/llm-cache/**", "./data/llm-ledger.json"],
 }
 ```
 
@@ -126,6 +173,17 @@ row.
 **Materiality score** = category weight × recency decay × the market's same-day reaction × language
 signals in the filing. That last pair matters: a press release that moved the stock 6% on triple
 volume was not a press release, and no category table can know that in advance.
+
+```mermaid
+flowchart LR
+    CW["Category weight<br/><i>results, mergers, management…</i>"] --> S(("Materiality<br/>score"))
+    RD["Recency decay<br/><i>age in days</i>"] --> S
+    MR["Market reaction<br/><i>same-day price + volume</i>"] --> S
+    LS["Language signals<br/><i>text of the filing</i>"] --> S
+    S --> D{"above the<br/>dial?"}
+    D -->|yes| F["ranked feed"]
+    D -->|no| R["routine row<br/><i>collapsed</i>"]
+```
 
 Every score is auditable. Open any filing and **Why this ranked here** lists each contribution with
 its sign and reason:
@@ -148,14 +206,35 @@ Two enrichments are built properly, matching the brief's own examples:
 
 ## Pull — The research sheet
 
-`/c/[SYMBOL]` for any NSE ticker. The sheet splits in two:
+`/c/[SYMBOL]` for any NSE ticker. The sheet splits in two, and the split is the whole idea:
+
+```mermaid
+sequenceDiagram
+    participant R as Reader
+    participant S as Server
+    participant T as screener tables
+    participant M as Model
+
+    R->>S: GET /c/TITAN
+    S->>T: parse standardised statements
+    T-->>S: quarterly · annual · ratios
+    S-->>R: numbers, server-rendered<br/>(no model, no waiting)
+
+    Note over S,M: written sections stream after
+    S->>M: 5 sections, tiered routing
+    M-->>R: Promised vs Delivered
+    M-->>R: business snapshot
+    M-->>R: guidance
+    M-->>R: narrative vs numbers
+    M-->>R: bull vs bear
+    Note over R: one failure degrades to<br/>a labelled card, not an empty page
+```
 
 - **Numbers render immediately, server-side.** At a glance, financial snapshot, trajectory, balance
   sheet and cash quality are arithmetic over tables we parsed. No model, no waiting, nothing to get
   wrong.
 - **Language streams in afterwards.** Promised vs Delivered, business snapshot, guidance, narrative
-  vs numbers, and bull vs bear arrive over NDJSON as each completes. One section failing degrades to
-  a labelled error in that card rather than an empty page.
+  vs numbers, and bull vs bear arrive over NDJSON as each completes.
 
 Every section carries citation chips naming the source document and page, tappable through to the
 original PDF.
@@ -197,7 +276,21 @@ simply does not exist.
 
 **Most filings never touch a model.** NSE publishes its own subject line, so a rules table built
 from a survey of 102 distinct `desc` values across eight tickers resolves the large majority for
-free. Measured over the 22 ingested tickers:
+free:
+
+```mermaid
+flowchart TD
+    A["Filing<br/>4,840 ingested"] --> B{"desc matches<br/>the rules table?"}
+    B -->|"yes · 79.0%"| C["Rules + keyword scoring<br/><b>3,823 filings · 0 tokens</b>"]
+    B -->|no| D{"inside the Brief's<br/>60-day window?"}
+    D -->|"no · 18.4%"| E["Left to rules<br/><b>889 filings · 0 tokens</b>"]
+    D -->|"yes · 2.6%"| F["Fast model,<br/>inline text only<br/><b>128 filings</b>"]
+
+    classDef free fill:#064e3b,stroke:#059669,color:#d1fae5
+    classDef paid fill:#7c2d12,stroke:#ea580c,color:#ffedd5
+    class C,E free
+    class F paid
+```
 
 | Resolved by | Filings | Share |
 |---|---|---|
@@ -209,8 +302,8 @@ That is measured across all 4,840 ingested filings, not estimated. The ambiguous
 by the "Updates" / "General Updates" family, which is genuinely uninformative by design. Even those
 use NSE's inline `attchmntText` rather than downloading the attached PDF.
 
-**The third row is the point.** The Brief only ever renders a trailing 60-day window, so paying to
-disambiguate a filing from fourteen months ago buys nothing anyone can see. Ingestion therefore
+**The middle branch is the point.** The Brief only ever renders a trailing 60-day window, so paying
+to disambiguate a filing from fourteen months ago buys nothing anyone can see. Ingestion therefore
 sends only filings inside that window to a model — 130 calls instead of roughly a thousand, for
 identical rendered output. Inside the window the coverage is effectively complete: 128 of 130
 resolved, the other two falling back after the model returned nothing parseable. The window is
@@ -232,11 +325,21 @@ for guidance matching, narrative divergence and the bull/bear case. Both ids are
 (`FINN_GROQ_FAST` / `FINN_GROQ_STRONG`), which matters because Groq retires model names periodically
 — the Llama 3.x ids this originally used now 404.
 
-**Rate limits are treated as a wait, not a failure.** Groq's free tier allows 30 requests and 8,000
-tokens per minute, and ingestion fans out over thousands of filings. `lib/llm/limiter.ts` holds a
-rolling-window budget over both, and 429s retry against the provider's own `retry-after` hint.
-Without this the first thirty calls succeed and everything after silently degrades to the
-deterministic fallback — which looks identical to having no key at all. Tune with `FINN_LLM_RPM`
+**Rate limits are treated as a wait, not a failure — but only up to a point.** Groq's free tier
+allows 30 requests and 8,000 tokens per minute, and ingestion fans out over thousands of filings.
+`lib/llm/limiter.ts` holds a continuously refilling token bucket over both, and 429s retry against
+the provider's own `retry-after` hint. Two failure modes are handled explicitly, because both were
+observed:
+
+- A hint longer than a minute means a *daily* budget is gone, not a per-minute one. Honouring it
+  literally parks the whole run on a single timer — one warm pass sat idle for 89 minutes on one
+  section. Past that ceiling the call abandons to its deterministic fallback instead.
+- A request larger than the per-minute ceiling is refused outright rather than throttled, so
+  retrying can never help. Requests are measured pessimistically — dense financial prose tokenises
+  near two characters per token, not four — and trimmed to fit before they are sent.
+
+Without any of this the first thirty calls succeed and everything after silently degrades to the
+deterministic fallback, which looks identical to having no key at all. Tune with `FINN_LLM_RPM`
 and `FINN_LLM_TPM` if your tier is more generous.
 
 **Content-hash cache** keyed on `sha256(provider + model + prompt)`, written to `data/llm-cache/`
@@ -303,9 +406,9 @@ All figures use `tabular-nums slashed-zero` so columns align and count-up animat
 | Financial statements | screener.in | `#quarters`, `#profit-loss`, `#balance-sheet`, `#cash-flow`, `#ratios` |
 | Annual reports, transcripts | screener.in `#documents` + Concalls | PDFs extracted with `unpdf` |
 
-`npx tsx scripts/check-sources.ts TITAN` exercises all four end to end. These are scrapes, not
-contracted APIs, so they will eventually change shape — that script turns "the app is broken" into
-"screener changed its table markup" in about ten seconds.
+`npm run sources -- TITAN` exercises all four end to end. These are scrapes, not contracted APIs, so
+they will eventually change shape — that script turns "the app is broken" into "screener changed its
+table markup" in about ten seconds.
 
 ---
 
@@ -337,4 +440,8 @@ Called out because they were decisions, not oversights:
 
 ---
 
-Not investment advice.
+<div align="center">
+
+**Not investment advice.**
+
+</div>
